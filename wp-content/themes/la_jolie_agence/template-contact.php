@@ -63,7 +63,7 @@ get_header(); ?>
 
         <div class="box-content-text content-text-contact">
             <div class="minibox-text">
-                <form action="" id="form-contact" method="post">
+                <form action="" id="form-contact" method="post" novalidate>
                     <div class="midSize">
                         <div class="halfSize">
                             <label for="nom">Nom *</label>
@@ -122,12 +122,9 @@ get_header(); ?>
                                                 echo $errors['message'];
                                             } ?></span>
                     </div>
-                    <button type="submit" name="submitted">Envoyer</button>
+                    <input type="submit" name="submitted" value="Envoyer">
                 </form>
             </div>
-            <!-- <div class="minibox-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium tempora excepturi beatae ab voluptas voluptates mollitia at quam, facilis repellat error, repudiandae consequuntur maiores sed blanditiis. Consequuntur, eos ducimus! Consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ea repellat adipisci atque nihil explicabo voluptates reiciendis tempore quam eius impedit. Ut odit adipisci sed illo cupiditate culpa modi porro?</p>
-            </div> -->
         </div>
     </div>
     <div class="map">
