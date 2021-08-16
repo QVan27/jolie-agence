@@ -1281,6 +1281,16 @@ p, a {
 	width: 100%;
 }
 
+.error {
+	color: red;
+	font-size: .8em;
+}
+
+.succes {
+	text-align: center;
+	color: green;
+	font-size: .8em;
+}
 /* end contact*/
 /* START PRESTATION */
 

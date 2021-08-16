@@ -2,6 +2,49 @@
 /*
 Template Name: Contact
 */
+$errors     = array();
+$success    = false;
+
+if (!empty($_POST['submitted'])) {
+    $nom        = cleanXss($_POST['nom']);
+    $prenom     = cleanXss($_POST['prenom']);
+    $email      = cleanXss($_POST['email']);
+    $objet      = cleanXss($_POST['objet']);
+    $numero     = cleanXss($_POST['numero']);
+    $message    = cleanXss($_POST['message']);
+
+    $errors = ValidationText($errors, $nom, 'nom', 2, 200);
+    $errors = ValidationText($errors, $prenom, 'prenom', 2, 200);
+    $errors = ValidationText($errors, $objet, 'objet', 2, 150);
+    $errors = ValidationText($errors, $numero, 'numero', 2, 20);
+    $errors = ValidationText($errors, $message, 'message', 4, 1000);
+
+    $errors = emailValidation($errors, $email, 'email');
+
+    if (count($errors) == 0) {
+        global $wpdb;
+        $wpdb->insert(
+            $wpdb->prefix . 'contact',
+            array(
+                'nom'           => $nom,
+                'email'         => $email,
+                'objet'         => $objet,
+                'numero'        => $numero,
+                'message'       => $message,
+                'created_at'    => current_time('mysql'),
+            ),
+            array(
+                '%s',
+                '%s',
+                '%s',
+                '%s',
+                '%s',
+                '%s',
+            )
+        );
+        $success = true;
+    }
+}
 get_header(); ?>
 <section id="contact" data-scroll-section class="parallax-window-about" data-parallax="scroll" data-image-src="<?php echo get_template_directory_uri() . '/asset/img/table.jpg' ?>">
     <div class="content-about" data-scroll data-scroll-delay="0.04" data-scroll-speed="3">
@@ -20,41 +63,66 @@ get_header(); ?>
 
         <div class="box-content-text content-text-contact">
             <div class="minibox-text">
-                <form action="" id="form-contact" method="">
+                <form action="" id="form-contact" method="post">
                     <div class="midSize">
                         <div class="halfSize">
                             <label for="nom">Nom *</label>
-                            <input type="text" name="nom" id="nom" placeholder="La Jolie">
+                            <input type="text" name="nom" id="nom" placeholder="La Jolie" value="<?php if (!empty($_POST['nom'])) {
+                                                                                                        echo $_POST['nom'];
+                                                                                                    } ?>" required>
+                            <span class="error"><?php if (!empty($errors['nom'])) {
+                                                    echo $errors['nom'];
+                                                } ?></span>
                         </div>
                         <div class="halfSize">
                             <label for="prenom">Prénom *</label>
-                            <input type="text" name="prenom" id="prenom" placeholder="Agence">
+                            <input type="text" name="prenom" id="prenom" placeholder="Agence" value="<?php if (!empty($_POST['prenom'])) {
+                                                                                                            echo $_POST['prenom'];
+                                                                                                        } ?>" required>
+                            <span class="error"><?php if (!empty($errors['prenom'])) {
+                                                    echo $errors['prenom'];
+                                                } ?></span>
                         </div>
                     </div>
                     <div class="fullSize">
                         <label for="email">Adresse mail *</label>
-                        <input type="text" name="email" id="email" placeholder="lajolieagence@gmail.com">
+                        <input type="text" name="email" id="email" placeholder="lajolieagence@gmail.com" value="<?php if (!empty($_POST['email'])) {
+                                                                                                                    echo $_POST['email'];
+                                                                                                                } ?>" required>
+                        <span class="error"><?php if (!empty($errors['email'])) {
+                                                echo $errors['email'];
+                                            } ?></span>
                     </div>
                     <div class="midSize">
                         <div class="halfSize">
-                            <label for="number">Numéro de téléphone *</label>
-                            <input type="text" name="number" id="number" placeholder="0784828286">
+                            <label for="numero">Numéro de téléphone *</label>
+                            <input type="text" name="numero" id="numero" placeholder="0784828286" value="<?php if (!empty($_POST['numero'])) {
+                                                                                                                echo $_POST['numero'];
+                                                                                                            } ?>">
+                            <span class="error"><?php if (!empty($errors['numero'])) {
+                                                    echo $errors['numero'];
+                                                } ?></span>
                         </div>
                         <div class="halfSize">
                             <label for="objet">Objet *</label>
-                            <select name="objet" id="objet">
-                                <option value="prestation">prestation</option>
-                                <option value="prestation 2">prestation 2</option>
-                                <option value="prestation 3">prestation 3</option>
-                                <option value="prestation 4">prestation 4</option>
-                            </select>
+                            <input type="text" name="objet" id="objet" value="<?php if (!empty($_POST['objet'])) {
+                                                                                    echo $_POST['objet'];
+                                                                                } ?>" required>
+                            <span class="error"><?php if (!empty($errors['objet'])) {
+                                                    echo $errors['objet'];
+                                                } ?></span>
                         </div>
                     </div>
                     <div class="fullSize">
                         <label for="message">Message *</label>
-                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        <textarea name="message" id="message" cols="30" rows="10"><?php if (!empty($_POST['message'])) {
+                                                                                        echo $_POST['message'];
+                                                                                    } ?></textarea>
+                        <span class="error"><?php if (!empty($errors['message'])) {
+                                                echo $errors['message'];
+                                            } ?></span>
                     </div>
-                    <button type="submit">Envoyer</button>
+                    <button type="submit" name="submitted">Envoyer</button>
                 </form>
             </div>
             <!-- <div class="minibox-text">
