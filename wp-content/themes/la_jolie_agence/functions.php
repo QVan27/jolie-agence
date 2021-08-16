@@ -7,7 +7,7 @@ require get_template_directory() . '/inc/customs/custom-slider-banner.php';
 require get_template_directory() . '/inc/customs/custom-galerie.php';
 
 // Admin 
-
+require get_template_directory() . '/inc/admin/admin-contact.php';
 /**
  * Custom template tags for this theme.
  */
