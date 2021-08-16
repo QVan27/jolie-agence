@@ -10,7 +10,7 @@ get_header(); ?>
 </section>
 <div class="bigbox-about bigbox-contact" data-scroll-section>
 	<div class="box-back">
-    <a href="" target="_blank"><i class=" about fas fa-arrow-circle-left fa-3x "></i></a>
+    <a href="<?php echo esc_url(home_url('prestation')); ?>"><i class=" about fas fa-arrow-circle-left fa-3x "></i></a>
     </div>
 <section id=timeline>
 	<div class="demo-card-wrapper">

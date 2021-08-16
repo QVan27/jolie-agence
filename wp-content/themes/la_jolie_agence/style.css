@@ -1641,4 +1641,10 @@ p, a {
   .box-back {
 	  padding: 2%;
   }
+  .box-back i { 
+	  transition: all .2s ease-in-out; 
+	}
+.box-back i:hover { 
+	transform: scale(0.9); 
+}
 /* END SERVICE1 */
