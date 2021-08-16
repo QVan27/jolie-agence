@@ -102,7 +102,7 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <a class="cta-see-more-tabac btn-card-home" href="#">Voir plus</a>
+                    <a class="cta-see-more-tabac btn-card-home" href="<?php echo esc_url(home_url('service1')); ?>">Voir plus</a>
                 </div>
 
                 <div class="container-card-flip">
@@ -134,7 +134,7 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <a class="cta-see-more-tabac btn-card-home" href="#">Voir plus</a>
+                    <a class="cta-see-more-tabac btn-card-home" href="<?php echo esc_url(home_url('service2')); ?>">Voir plus</a>
                 </div>
 
                 <div class="container-card-flip">
@@ -167,16 +167,13 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <a class="cta-see-more-tabac btn-card-home" href="#">Voir plus</a>
+                    <a class="cta-see-more-tabac btn-card-home" href="<?php echo esc_url(home_url('service3')); ?>">Voir plus</a>
                 </div>
 
 
             </div>
             <div class="more-services">
-                <p class="p-services">Un évènement, un accompagnement spécifique ? Venez découvrir nos autres services</p>
-                <a class="cta-see-more-tabac btn-card-home" href="#">Découvrir plus de prestations</a>
-
-            </div>
+            
         </div>
     </section>
 
