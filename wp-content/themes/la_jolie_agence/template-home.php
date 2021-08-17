@@ -177,7 +177,7 @@ get_header(); ?>
         </div>
     </section>
 
-    <section id="sixth" data-scroll-section>
+    <!-- <section id="sixth" data-scroll-section>
         <div class="box-sixth">
             <div class="img_box-sixth">
                 <style>
@@ -197,7 +197,7 @@ get_header(); ?>
             <div class="brown_box-sixth"></div>
         </div>
 
-    </section>
+    </section> -->
 
     <section id="third" data-scroll-section>
         <div class="third-box-1">
@@ -216,7 +216,7 @@ get_header(); ?>
                         SCENOGRAPHIE QUE SUR LA PHOTO?</p>
                     <p class="italic"><a href="">lire la suite</a></p>
                 </div>
-                <a class="cta-see-more-tabac" href="#">Voir plus d'articles</a>
+                <a class="cta-see-more-tabac" href="https://www.instagram.com/lajolieagence/">Voir plus d'articles</a>
             </div>
         </div>
         <div class="third-box-2 img-2"></div>
