@@ -38,9 +38,9 @@
                     </div>
                 </div>
             </div>
-            <div class="minibox">
+            <div class="minibox minibox_icons-footer">
                 <h3 class="title-footer">Suivez-nous</h3>
-                <div class="box-content-footer">
+                <div class="box-content-footer box_icons-footer">
                     <a class="social-icons" href="https://www.facebook.com/lajolieagence" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
                     <a class="social-icons" href="https://www.instagram.com/lajolieagence/" target="_blank"></i><i class="fab fa-instagram fa-2x"></i></a>
                 </div>

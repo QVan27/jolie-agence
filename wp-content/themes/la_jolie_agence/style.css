@@ -907,10 +907,8 @@ p, a {
 }
 
 .gallery {
-	/* margin: 10px 50px; */
 	width: 100%;
-	padding: 40px 80px;
-	/* margin: 0 auto; */
+	padding: 10vh 5%;
 	background-color: var(--beige-color);
 }
 
@@ -1067,7 +1065,13 @@ p, a {
 }
 
 .box-content-footer {
-	line-height: 22px;
+	line-height: 1.5em;
+}
+
+.box_icons-footer {
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
 }
 
 .box-content-footer img {
@@ -1091,6 +1095,12 @@ p, a {
 	transform: scale(1.1);
 	color: var(--tabac-color);
 	transition: .3s;
+}
+
+.minibox_icons-footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 /* START ABOUT */
