@@ -102,7 +102,7 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <a class="cta-see-more-tabac btn-card-home" href="#">Voir plus</a>
+                    <a class="cta-see-more-tabac btn-card-home" href="<?php echo esc_url(home_url('service1')); ?>">Voir plus</a>
                 </div>
 
                 <div class="container-card-flip">
@@ -133,7 +133,7 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <a class="cta-see-more-tabac btn-card-home" href="#">Voir plus</a>
+                    <a class="cta-see-more-tabac btn-card-home" href="<?php echo esc_url(home_url('service2')); ?>">Voir plus</a>
                 </div>
 
                 <div class="container-card-flip">
@@ -166,20 +166,17 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <a class="cta-see-more-tabac btn-card-home" href="#">Voir plus</a>
+                    <a class="cta-see-more-tabac btn-card-home" href="<?php echo esc_url(home_url('service3')); ?>">Voir plus</a>
                 </div>
 
 
             </div>
             <div class="more-services">
-                <p class="p-services">Un évènement, un accompagnement spécifique ? Venez découvrir nos autres services</p>
-                <a class="cta-see-more-tabac btn-card-home" href="#">Découvrir plus de prestations</a>
-
-            </div>
+            
         </div>
     </section>
 
-    <section id="sixth" data-scroll-section>
+    <!-- <section id="sixth" data-scroll-section>
         <div class="box-sixth">
             <div class="img_box-sixth">
                 <style>
@@ -199,7 +196,7 @@ get_header(); ?>
             <div class="brown_box-sixth"></div>
         </div>
 
-    </section>
+    </section> -->
 
     <section id="third" data-scroll-section>
         <div class="third-box-1">
@@ -218,7 +215,7 @@ get_header(); ?>
                         SCENOGRAPHIE QUE SUR LA PHOTO?</p>
                     <p class="italic"><a href="">lire la suite</a></p>
                 </div>
-                <a class="cta-see-more-tabac" href="#">Voir plus d'articles</a>
+                <a class="cta-see-more-tabac" href="https://www.instagram.com/lajolieagence/">Voir plus d'articles</a>
             </div>
         </div>
         <div class="third-box-2 img-2"></div>
