@@ -20,10 +20,10 @@
     <div class="wrapper">
         <div class="box1">
             <div class="minibox">
-                <h3 class="title-footer">certifiée</h3>
+                <!-- <h3 class="title-footer">certifiée</h3> -->
                 <div class="box-content-footer">
                     <a href="https://www.bschoolevents.fr/" target="_blank">
-                        <img src="<?php echo get_template_directory_uri() . '/asset/img/logo_bschoolevents.svg' ?>" alt="B School Events">
+                        <img src="<?php echo get_template_directory_uri() . '/asset/img/bschool.png' ?>" alt="B School Events">
                     </a>
                 </div>
             </div>
@@ -32,8 +32,8 @@
                 <div class="box-content-footer">
                     <div class="box-call">
                         <p>33820 Saint-Palais</p>
-                        <p>Téléphone : <a href="tel:+33675458691">06 75 45 86 91</a></p>
-                        <p>E-mail : <a href="mailto:LaJolieAgence@gmail.com" class="text-footer">lajolieagence@gmail.com</a></p>
+                        <p><!--E-mail : --><a href="mailto:lajolieagence@gmail.com" class=" link-footer">lajolieagence@gmail.com</a></p>
+                        <p><!--Téléphone : --><a href="tel:+33675458691" class="link-footer">06 75 45 86 91</a></p>
                         <p>SIRET : 893 717 538 00019</p>
                     </div>
                 </div>
@@ -47,11 +47,11 @@
             </div>
         </div>
         <div class="box2">
-            <p>La Jolie Agence. Wedding Planner en Nouvelle-Aquitaine. Logo et charte graphique réalisée par la talentueuse <a href="https://www.leila-petiteagence.fr" target="_blank">Leïla-petiteagence</a></p>
+            <p>La Jolie Agence. Wedding Planner en Nouvelle-Aquitaine. Logo et charte graphique réalisée par la talentueuse <a href="https://www.leila-petiteagence.fr" target="_blank" class="link-footer">Leïla-petiteagence</a>.<br>Crédit photo : Ariane Duplaceau - Barbara Luzynska - Caroline Hoang </p>
             <ul>
                 <li><a href="" class="link-footer">Blog</a></li>
-                <li><a href="" class="link-footer">Dons Associatifs</a></li>
-                <li><a href="<?php echo esc_url(home_url('contact')); ?> class="link-footer"">Contact</a></li>
+                <li><a href="<?php echo esc_url(home_url('dons-associatifs')); ?>" class="link-footer">Dons Associatifs</a></li>
+                <li><a href="<?php echo esc_url(home_url('contact')); ?>" class="link-footer" >Contact</a></li>
                 <li><a href="" class="link-footer">Mentions légales</a></li>
                 <li><a href="" class="link-footer">Politique de confidentialité</a></li>
             </ul>
