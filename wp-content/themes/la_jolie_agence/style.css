@@ -193,6 +193,7 @@ body {
 	--beige-color: #f8f5f3;
 	--tabac-color: #bb8131;
 	--bleu-color: #092636;
+	--overlay-color: #bb813120;
 }
 
 a {
@@ -899,6 +900,7 @@ p, a {
 	height: 350px;
 	max-width: 100%;
 	position: relative;
+	background-color: var(--overlay-color);
 	/* z-index: 1; */
 }
 

@@ -3,7 +3,7 @@
 Template Name: Galery
 */
 get_header(); ?>
-<div id="parallax" data-scroll-section class="parallax-window-about" data-parallax="scroll" data-image-src="<?php echo get_template_directory_uri() . '/asset/img/parralax-about2.jpg' ?>">
+<div id="parallax" data-scroll-section class="parallax-window-about" data-parallax="scroll" data-image-src="<?php echo get_template_directory_uri() . '/asset/img/elopement.jpg' ?>">
     <div class="page-title" data-scroll data-scroll-delay="0.04" data-scroll-speed="3">
         <h1>Portfolio</h1>
         <p class="white-p">
