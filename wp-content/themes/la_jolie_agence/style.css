@@ -218,7 +218,7 @@ p, a {
 }
 
 #second, #third, #fifth, #sixth, #seventh {
-	padding: 10vh 7%;
+	padding: 10vh 5%;
 	background-color: var(--beige-color);
 }
 
@@ -975,7 +975,7 @@ p, a {
 }
 
 .wrapper {
-	padding: 0 2vw;
+	padding: 0 5%;
 	height: 50vh;
 	width: 100%;
 	display: flex;
@@ -1038,8 +1038,7 @@ p, a {
 	flex-direction: column;
 	justify-content: flex-start;
 	position: relative;
-	/* margin: 0 auto; */
-	width: 32%;
+	width: auto;
 	text-align: center;
 	vertical-align: top;
 	border: none;
@@ -1138,6 +1137,7 @@ p, a {
 .bigbox-about {
 	background-color: #f6f6f6;
 	position: relative;
+	padding: 10vh 5%;
 }
 
 .minibox-content {
@@ -1163,16 +1163,14 @@ p, a {
 }
 
 .box-content-text {
-	display: flex;
-	margin: 0px 135PX;
+	display: flex; 
+	justify-content: space-between;
 }
 
 .minibox-text {
-	width: 50%;
-	position: relative;
-	min-height: 1px;
-	padding-right: 15px;
-	padding-left: 15px;
+	width: 48%;
+	height: auto;
+	min-height: 20vh;
 }
 
 .minibox-content p {
