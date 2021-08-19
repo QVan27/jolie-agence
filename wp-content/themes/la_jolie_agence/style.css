@@ -903,9 +903,17 @@ p, a {
 }
 
 .page-title {
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	color: var(--beige-color);
 	padding-top: 200px;
+}
+
+.page-title .white-p {
+	width: 70%;
+	height: auto;
+	text-align: center;
 }
 
 .page-title h1 {
