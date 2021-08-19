@@ -40,7 +40,7 @@
 						<!-- <i class="fas fa-heart pink-heart"></i> -->
 						<li class="nav-item"><a href="<?php echo esc_url(home_url('prestation')); ?>" class="nav-link">Prestations</a></li>
 						<!-- <i class="fas fa-heart pink-heart"></i> -->
-						<li class="nav-item" id="gallery-link"><a href="<?php echo esc_url(home_url('galerie')); ?>" class="nav-link">Portfolio</a></li>
+						<li class="nav-item" id="gallery-link"><a href="<?php echo esc_url(home_url('galeries')); ?>" class="nav-link">Portfolio</a></li>
 						<!-- <i class="fas fa-heart pink-heart"></i> -->
 						<li class="nav-item"><a href="<?php echo esc_url(home_url('contact')); ?>" class="nav-link">Contact</a></li>
 					</ul>
