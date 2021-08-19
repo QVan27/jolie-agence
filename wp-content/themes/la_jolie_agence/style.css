@@ -1052,9 +1052,9 @@ p, a {
 .title-footer {
 	font-size: 1.5em;
 	margin: 0 auto 20px;
-	font-weight: bold;
+	font-weight: 500;
 	text-transform: uppercase;
-	color: var(--bleu-color);
+	color: var(--beige-color);
 }
 
 .text-footer {

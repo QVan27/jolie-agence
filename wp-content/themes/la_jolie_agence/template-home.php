@@ -90,14 +90,14 @@ get_header(); ?>
                                         }
                                     </style>
                                 </div>
-                                <h3 class="fifth-caption">weeding day</h3>
+                                <h3 class="fifth-caption">wedding day</h3>
                             </div>
                             <div class="back">
                                 <a href="https://en.wikipedia.org/wiki/Cherry_blossom" target="_blank">
                                     <h4>organisation de mariage</h4>
                                 </a>
                                 <!-- <p class="date">23/07/1997</p> -->
-                                <p class="description">Venez découvrir les différentes formules qui vous correspondent pour votre mariage: <br>"Organisation Complète ou partielle" <br>"Coordination Jour J " <br>"Elopement " <br><span class="description_span">Barbara Luzynska</span>
+                                <p class="description">Venez découvrir les différentes formules qui vous correspondent pour votre mariage: <br>Organisation complète ou partielle" <br>Coordination Jour J<br>Elopement<br><span class="description_span">Barbara Luzynska</span>
                                 </p>
                             </div>
                         </div>
@@ -123,13 +123,12 @@ get_header(); ?>
                                 <a href="https://en.wikipedia.org/wiki/Tulip" target="_blank">
                                     <h4>Organisation d'évènements</h4>
                                 </a>
-                                <!-- <p class="date">14/07/2001</p> -->
                                 <p class="description">Vous souhaitez créer ou
                                     recréer le moment magique à
                                     travers :
-                                    <br>"une demande en Mariage"
+                                    <br>Une demande en Mariage
                                     <br>"Un Renouvellement de vœux"
-                                    <br>"Baby Shower"
+                                    <br>Baby Shower
                                 </p>
                             </div>
                         </div>
@@ -160,9 +159,9 @@ get_header(); ?>
                                     de rentrer en scène. Pour
                                     cela, La Jolie Agence vous
                                     propose différents services :
-                                    <br>"Enterrement de vie de jeune
-                                    fille et de garçon"
-                                    <br>"SOS TEMOIN "
+                                    <br>Enterrement de vie de jeune
+                                    fille et de garçon
+                                    <br>SOS TEMOIN
                                 </p>
                             </div>
                         </div>

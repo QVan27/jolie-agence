@@ -58,7 +58,7 @@ get_header(); ?>
         <div class="box-reseaux">
             <a href="https://www.facebook.com/lajolieagence" target="_blank"><i class="about fab fa-facebook-square fa-3x"></i></a>
             <a href="https://www.instagram.com/lajolieagence/" target="_blank"></i><i class="about fab fa-instagram fa-3x"></i></a>
-            <a href=""><i class="about fab fa-youtube fa-3x"></i></a>
+            <!-- <a href=""><i class="about fab fa-youtube fa-3x"></i></a> -->
         </div>
 
         <div class="box-content-text content-text-contact">
@@ -128,7 +128,7 @@ get_header(); ?>
         </div>
     </div>
     <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2805.8568472648844!2d-0.5796132844476514!3d45.311317279099335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48004a8e651d314f%3A0xf5dab2c337da359a!2s23%20Chez%20N%C3%A9ron%2C%2033820%20Saint-Palais!5e0!3m2!1sfr!2sfr!4v1628949870558!5m2!1sfr!2sfr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22448.238338589617!2d-0.6181986141107647!3d45.30782379478757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48004ab0321b897d%3A0x40665174816d520!2s33820%20Saint-Palais!5e0!3m2!1sfr!2sfr!4v1629314907134!5m2!1sfr!2sfr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 </div>
 

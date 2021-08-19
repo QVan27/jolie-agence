@@ -21,7 +21,7 @@ get_header(); ?>
         <div class="box-reseaux">
             <a href="https://www.facebook.com/lajolieagence" target="_blank"><i class="about fab fa-facebook-square fa-3x"></i></a>
             <a href="https://www.instagram.com/lajolieagence/" target="_blank"></i><i class="about fab fa-instagram fa-3x"></i></a>
-            <a href=""><i class="about fab fa-youtube fa-3x"></i></a>
+            <!-- <a href=""><i class="about fab fa-youtube fa-3x"></i></a> -->
         </div>
 
         <div class="box-content-text">
