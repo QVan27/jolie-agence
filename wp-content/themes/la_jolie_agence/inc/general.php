@@ -94,8 +94,8 @@ function la_jolie_agence_scripts()
 	// LightBox .js
 	wp_enqueue_script('lightBox', get_template_directory_uri() . '/asset/js/lightbox.min.js', array(), '1.0.2', true);
 	// Locomotive Scroll 
-	wp_register_script('locomotiveScroll', 'https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js', null, null, true);
-	wp_enqueue_script('locomotiveScroll');
+	/*wp_register_script('locomotiveScroll', 'https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js', null, null, true);
+	wp_enqueue_script('locomotiveScroll');*/
 	// Parallax .js
 	wp_enqueue_script('parallaxJs', get_template_directory_uri() . '/asset/js/parallax.js', array(), '1.0.2', true);
 	// jarallax

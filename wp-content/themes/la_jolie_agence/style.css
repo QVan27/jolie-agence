@@ -221,13 +221,15 @@ p, a {
 	padding: 10vh 5%;
 	background-color: var(--beige-color);
 }
- strong {
-	 font-weight: bold;
- }
 
- .line {
-	 line-height: 1.5em;
- }
+strong {
+	font-weight: bold;
+}
+
+.line {
+	line-height: 1.5em;
+}
+
 /* END OF COMMON CSS */
 
 /* HEADER */
@@ -1115,12 +1117,16 @@ p, a {
 }
 
 .content-about {
-	display: inline-block;
+	/* display: inline-block; */
 	text-align: center;
 	max-width: 750px;
 	width: 100%;
-	padding-top: 200px;
+	/* padding-top: 200px; */
 	color: var(--beige-color);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 #text-about {
@@ -1140,6 +1146,7 @@ p, a {
 	position: relative;
 	padding: 10vh 5%;
 }
+
 .bigbox-about h1 {
 	font-size: 3em;
 	margin-bottom: 10vh;
@@ -1217,7 +1224,7 @@ p, a {
 .box-img {
 	width: 100%;
 	min-height: 100%;
-	box-shadow:inset 0 0 0 2000px var(--overlay-color);
+	box-shadow: inset 0 0 0 2000px var(--overlay-color);
 	background: no-repeat 0 15% / cover url("../la_jolie_agence/asset/img/about-client.jpg");
 }
 
@@ -1227,6 +1234,7 @@ p, a {
 	align-items: center;
 	width: 50%;
 }
+
 .speakAbout h2 {
 	font-size: 2.2em;
 	line-height: 1.2em;
@@ -1236,19 +1244,24 @@ p, a {
 .speakAbout a {
 	width: 40%;
 }
+
 .speakAbout a img {
 	width: 100%;
 }
+
 .center {
 	justify-content: center;
 }
+
 .contact2:hover {
 	transform: scale(1.1);
 }
+
 .w50 {
 	width: 50%;
 	margin: 5vh 0;
 }
+
 /* END ABOUT */
 
 /* start contact*/
