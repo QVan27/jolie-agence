@@ -625,11 +625,6 @@ p, a {
 	font-weight: 500;
 }
 
-.italic {
-	font-style: italic;
-	margin-bottom: 6vh;
-}
-
 .tabac {
 	color: var(--tabac-color);
 }
@@ -1111,11 +1106,6 @@ p, a {
 	position: relative;
 	z-index: 0;
 	text-align: center;
-	/* background-image: url("../la_jolie_agence/asset/img/parralax-about2.jpg");
-	background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
 
 .content-about {
@@ -1124,17 +1114,12 @@ p, a {
 	max-width: 750px;
 	width: 100%;
 	padding-top: 200px;
-	/* position: absolute;
-	z-index: 2; */
-	/* top: 50%; */
-	/* left: 50%; */
-	/* transform: translate(-50%, -50%); */
 	color: var(--beige-color);
 }
 
 #text-about {
 	font-family: '';
-	width: 50%;
+	width: 100%;
 	color: var(--beige-color);
 	margin: 0 auto;
 	display: flex;
@@ -1149,23 +1134,23 @@ p, a {
 	position: relative;
 	padding: 10vh 5%;
 }
-
-.minibox-content {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
+.bigbox-about h1 {
+	font-size: 3em;
+	margin-bottom: 10vh;
+	color: var(--bleu-color);
+	font-weight: 700;
+	text-align: center;
+	width: 100%;
 }
 
 .box-reseaux {
-	display: flex;
-	width: 200px;
+	width: 100%;
 	text-align: center;
-	justify-content: space-around;
-	margin-bottom: 5vh;
+	margin-bottom: 10vh;
+}
+
+.box-reseaux a {
+	margin: 0 20px;
 }
 
 .about {
@@ -1173,24 +1158,84 @@ p, a {
 }
 
 .box-content-text {
-	display: flex; 
+	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
 }
 
 .minibox-text {
+	width: 100%;
+	height: auto;
+	min-height: 50vh;
+	display: flex;
+	justify-content: space-between;
+	/* align-items: center; */
+}
+
+.marginBottom {
+	margin-bottom: 10vh;
+	/* display: flex;
+	align-self: center; */
+}
+
+.minibox-text p {
 	width: 48%;
 	height: auto;
-	min-height: 20vh;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.reverse {
+	flex-direction: row-reverse;
+}
+
+.minibox-img {
+	width: auto;
+	min-width: 50%;
+	min-height: 100%;
+	height: auto;
+	background-color: #092636;
 }
 
 .minibox-content p {
+	display: flex;
+	align-items: center;
+	text-align: center;
 	font-size: 1em;
 	line-height: 1.5em;
-	margin-bottom: 25px;
-	margin-top: 20px;
-	color: #6a6a6a
+	color: var(--bleu-color);
 }
 
+.box-img {
+	width: 100%;
+	min-height: 100%;
+	box-shadow:inset 0 0 0 2000px var(--overlay-color);
+	background: no-repeat 0 15% / cover url("../la_jolie_agence/asset/img/about-client.jpg");
+}
+
+.speakAbout {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+.speakAbout h2 {
+	font-size: 2.2em;
+	line-height: 1.2em;
+	color: var(--bleu-color);
+}
+
+.speakAbout a {
+	width: 40%;
+}
+.speakAbout a img {
+	width: 100%;
+}
+.center {
+	justify-content: center;
+}
 .contact2:hover {
 	transform: scale(1.1);
 }
@@ -1213,6 +1258,7 @@ p, a {
 	justify-content: center;
 	margin-bottom: 5vh;
 }
+
 .box-text p {
 	text-align: center;
 }
@@ -1307,8 +1353,6 @@ p, a {
 .map {
 	margin-top: 5vh;
 }
-
-
 
 .content-text-contact {
 	justify-content: center;

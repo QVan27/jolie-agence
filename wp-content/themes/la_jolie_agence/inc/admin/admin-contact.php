@@ -39,7 +39,6 @@ function singleContact($urlBase, $id)
 {
     global $wpdb;
     $contact = $wpdb->get_row("SELECT * FROM {$wpdb->prefix}contact WHERE id = $id", OBJECT);
-    // debug($contact);
     ?>
     <div class="wrap">
         <table class="wp-list-table widefat fixed striped posts">
