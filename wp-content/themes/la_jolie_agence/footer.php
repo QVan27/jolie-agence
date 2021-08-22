@@ -49,10 +49,10 @@
         <div class="box2">
             <p>La Jolie Agence. Wedding Planner en Nouvelle-Aquitaine. Logo et charte graphique réalisée par la talentueuse <a href="https://www.leila-petiteagence.fr" target="_blank" class="link-footer">Leïla-petiteagence</a>.<br>Crédit photo : Ariane Duplaceau - Barbara Luzynska - Caroline Hoang </p>
             <ul>
-                <li><a href="" class="link-footer">Blog</a></li>
+                <li><a href="<?php echo esc_url(home_url('blog')); ?>" class="link-footer">Blog</a></li>
                 <li><a href="<?php echo esc_url(home_url('dons-associatifs')); ?>" class="link-footer">Dons Associatifs</a></li>
                 <li><a href="<?php echo esc_url(home_url('contact')); ?>" class="link-footer" >Contact</a></li>
-                <li><a href="" class="link-footer">Mentions légales</a></li>
+                <li><a href="<?php echo esc_url(home_url('mentions-legales')); ?>" class="link-footer">Mentions légales</a></li>
                 <li><a href="" class="link-footer">Politique de confidentialité</a></li>
             </ul>
         </div>

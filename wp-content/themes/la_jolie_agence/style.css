@@ -217,11 +217,17 @@ p, a {
 	color: var(--beige-color);
 }
 
-#second, #third, #fifth, #sixth, #seventh {
+#second, #third, #fifth, #sixth, #seventh, #mentions {
 	padding: 10vh 5%;
 	background-color: var(--beige-color);
 }
+ strong {
+	 font-weight: bold;
+ }
 
+ .line {
+	 line-height: 1.5em;
+ }
 /* END OF COMMON CSS */
 
 /* HEADER */
@@ -1239,7 +1245,10 @@ p, a {
 .contact2:hover {
 	transform: scale(1.1);
 }
-
+.w50 {
+	width: 50%;
+	margin: 5vh 0;
+}
 /* END ABOUT */
 
 /* start contact*/
@@ -1355,6 +1364,7 @@ p, a {
 }
 
 .content-text-contact {
+	display: flex;
 	justify-content: center;
 	width: 100%;
 }

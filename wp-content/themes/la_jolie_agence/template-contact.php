@@ -65,8 +65,8 @@ get_header(); ?>
             </p>
         </div>
 
-        <div class="box-content-text content-text-contact">
-            <div class="minibox-text">
+        <div class="content-text-contact">
+            <div class="w50">
                 <form action="" id="form-contact" method="post" novalidate>
                     <div class="midSize">
                         <div class="halfSize">
