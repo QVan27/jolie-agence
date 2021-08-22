@@ -5,6 +5,7 @@ require get_template_directory() . '/inc/func.php';
 // Custom 
 require get_template_directory() . '/inc/customs/custom-slider-banner.php';
 require get_template_directory() . '/inc/customs/custom-galerie.php';
+require get_template_directory() . '/inc/customs/custom-article.php';
 
 // Admin 
 require get_template_directory() . '/inc/admin/admin-contact.php';

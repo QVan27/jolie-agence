@@ -4,7 +4,7 @@ Template Name: Mentions
 */
 get_header(); ?>
 
-<section id="contact" data-scroll-section class="parallax-window-about" data-parallax="scroll" data-image-src="<?php echo get_template_directory_uri() . '/asset/img/slide3.jpg' ?>">
+<section class="banner-parallax" data-scroll-section class="parallax-window-about" data-parallax="scroll" data-image-src="<?php echo get_template_directory_uri() . '/asset/img/slide3.jpg' ?>">
     <div class="content-about" data-scroll data-scroll-delay="0.04" data-scroll-speed="3">
         <h1>Mentions Légales</h1>
     </div>

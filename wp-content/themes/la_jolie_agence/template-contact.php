@@ -46,7 +46,7 @@ if (!empty($_POST['submitted'])) {
     }
 }
 get_header(); ?>
-<section id="contact" data-scroll-section class="parallax-window-about" data-parallax="scroll" data-image-src="<?php echo get_template_directory_uri() . '/asset/img/table.jpg' ?>">
+<section class="banner-parallax" data-scroll-section class="parallax-window-about" data-parallax="scroll" data-image-src="<?php echo get_template_directory_uri() . '/asset/img/table.jpg' ?>">
     <div class="content-about" data-scroll data-scroll-delay="0.04" data-scroll-speed="3">
         <h1>Contact</h1>
     </div>
