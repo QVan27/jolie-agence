@@ -261,7 +261,6 @@ strong {
 	left: 0;
 	width: 100%;
 	z-index: 100;
-	background-color: var(--beige-color);
 }
 
 .navbar .container {
@@ -287,7 +286,8 @@ strong {
 .nav-link {
 	font-family: 'source_serif_proregular';
 	font-weight: bold;
-	color: var(--bleu-color);
+	/* color: var(--bleu-color); */
+	color: white;
 	position: relative;
 	padding: 5px 0px;
 	text-transform: uppercase;
@@ -513,7 +513,6 @@ strong {
 	background-image: url(asset/img/couple.jpg);
 	/* background-size: cover;
 	background-repeat: no-repeat; */
-
 	/* https://www.w3schools.com/howto/howto_css_parallax.asp
 	The image used
 	*/
@@ -533,6 +532,7 @@ strong {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 10vh 5%;
 }
 
 .second-box-content {
@@ -602,8 +602,6 @@ strong {
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 40%;
-
-	
 }
 
 .third-box-content {
@@ -911,10 +909,10 @@ strong {
 
 #parallax {
 	display: flex;
-    align-items: center;
+	align-items: center;
 	max-width: 100%;
 	position: relative;
-	box-shadow:inset 0 0 0 2000px var(--overlay-color);
+	box-shadow: inset 0 0 0 2000px var(--overlay-color);
 	/* text-align: center; */
 	/* https://www.w3schools.com/howto/howto_css_parallax.asp
 	The image used
@@ -929,7 +927,6 @@ strong {
 	background-size: cover;
 }
 
-
 .page-title {
 	display: flex;
 	flex-direction: column;
@@ -943,7 +940,7 @@ strong {
 	text-align: center;
 	margin-top: 20px;
 	font-size: 1.1em;
-    line-height: 1.5em;
+	line-height: 1.5em;
 }
 
 .page-title h1 {
@@ -1008,10 +1005,10 @@ strong {
 	filter: contrast(150%);
 	filter: brightness(1);
 	min-height: 60vh;
-    background-attachment: fixed;
-    background-position: 0 37vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-attachment: fixed;
+	background-position: 0 37vh;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .opacityFooter {
@@ -1169,8 +1166,9 @@ strong {
 	background-repeat: no-repeat;
 	background-size: cover;
 	/* background-color: var(--overlay-color); */
-	box-shadow:inset 0 0 0 2000px var(--overlay-color);
+	box-shadow: inset 0 0 0 2000px var(--overlay-color);
 }
+<<<<<<< HEAD
 .don {
 	width: 100%;
 	position: relative;
@@ -1186,6 +1184,9 @@ strong {
 	/* background-color: var(--overlay-color); */
 	box-shadow:inset 0 0 0 2000px var(--overlay-color);
 }
+=======
+
+>>>>>>> 8c2cf3fbb7a3e7b6856e47b6a43b834066c0bcf1
 .presta {
 	width: 100%;
 	position: relative;
@@ -1199,7 +1200,7 @@ strong {
 	background-repeat: no-repeat;
 	background-size: cover;
 	/* background-color: var(--overlay-color); */
-	box-shadow:inset 0 0 0 2000px var(--overlay-color);
+	box-shadow: inset 0 0 0 2000px var(--overlay-color);
 }
 
 
@@ -1226,7 +1227,7 @@ strong {
 }
 
 .bigbox-about {
-	background-color: #f6f6f6;
+	background-color: var(--beige-color);
 	position: relative;
 	padding: 10vh 5%;
 }
@@ -1274,7 +1275,7 @@ strong {
 
 .marginBottom {
 	margin-bottom: 10vh;
-	align-self: center; 
+	align-self: center;
 }
 
 .minibox-text p {
@@ -1405,7 +1406,7 @@ strong {
 	background-position: 0 25%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	box-shadow:inset 0 0 0 2000px var(--overlay-color);
+	box-shadow: inset 0 0 0 2000px var(--overlay-color);
 	/* background-color: var(--overlay-color); */
 }
 
@@ -1423,8 +1424,6 @@ strong {
 .box-text p {
 	text-align: center;
 }
-
-
 
 .bigbox-contact {
 	padding-top: 10vh;
@@ -1632,6 +1631,7 @@ strong {
 	padding: 10vh 5%;
 	min-height: 100vh;
 	height: auto;
+	background-color: var(--beige-color);
 }
 
 .box-article-blog {
@@ -1673,10 +1673,15 @@ strong {
 .split-bottom {
 	min-height: 48%;
 	height: auto;
-	padding: 2%;
+	padding: 3%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	background-color: #fff;
+	/* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+	/* box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px; */
+	/* box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px; */
 }
 
 .box-auteur-link {
@@ -1716,7 +1721,7 @@ strong {
 /* start single-article */
 
 .article-single {
-	padding: 15vh 5% 10vh 5%;
+	padding: 0 0 10vh 0;
 	min-height: 100vh;
 	height: auto;
 }
@@ -1742,9 +1747,34 @@ strong {
 
 .title-article {
 	font-weight: bold;
-	font-size: 2.2em;
-	line-height: 1.2em;
+	line-height: 1.5em;
 	color: var(--bleu-color);
+	min-height: 60vh;
+	position: relative;
+	width: 100%;
+	box-shadow: inset 0 0 0 2000px var(--overlay-color);
+}
+
+.w75 {
+	width: 75%;
+}
+
+.pl-5 {
+	padding-left: 5%;
+}
+
+.pr-5 {
+	padding-right: 5%;
+}
+
+.navigation-article {
+	width: 100%;
+	font-weight: 600;
+	font-size: .9em;
+}
+
+.nav-title {
+	font-weight: 500;
 }
 
 .content-article {

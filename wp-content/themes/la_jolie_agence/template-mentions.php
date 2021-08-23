@@ -5,9 +5,11 @@ Template Name: Mentions
 get_header(); ?>
 
 <section class="banner-parallax">
-<div class="content-about">
+    <div class="content-about">
         <div id="text-about">
-            <div id="save"><h1>La Jolie Agence</h1></div>
+            <div id="save">
+                <h1>La Jolie Agence</h1>
+            </div>
         </div>
         <div class="married">
             <h2>mentions légales</h2>
