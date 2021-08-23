@@ -1303,6 +1303,10 @@ strong {
 	line-height: 1.5em;
 	color: var(--bleu-color);
 }
+#centerDons {
+	display: block;
+}
+
 
 .box-img {
 	width: 100%;
