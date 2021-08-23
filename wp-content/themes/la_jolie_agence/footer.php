@@ -14,13 +14,11 @@
 <!-- footer -->
 <div class="push"></div>
 </div><!-- #wrap -->
-<!-- <div class="locomotive-section" >  -->
-<footer class="footer" data-scroll-section>
-    <!-- <div class="opacityFooter"></div> -->
+
+<footer class="footer">
     <div class="wrapper">
         <div class="box1">
             <div class="minibox">
-                <!-- <h3 class="title-footer">certifiée</h3> -->
                 <div class="box-content-footer">
                     <a href="https://www.bschoolevents.fr/" target="_blank">
                         <img src="<?php echo get_template_directory_uri() . '/asset/img/bschool.png' ?>" alt="B School Events">
@@ -32,8 +30,12 @@
                 <div class="box-content-footer">
                     <div class="box-call">
                         <p>33820 Saint-Palais</p>
-                        <p><!--E-mail : --><a href="mailto:lajolieagence@gmail.com" class=" link-footer">lajolieagence@gmail.com</a></p>
-                        <p><!--Téléphone : --><a href="tel:+33675458691" class="link-footer">06 75 45 86 91</a></p>
+                        <p>
+                            <a href="mailto:lajolieagence@gmail.com" class=" link-footer">lajolieagence@gmail.com</a>
+                        </p>
+                        <p>
+                            <a href="tel:+33675458691" class="link-footer">06 75 45 86 91</a>
+                        </p>
                         <p>SIRET : 893 717 538 00019</p>
                     </div>
                 </div>
@@ -51,7 +53,7 @@
             <ul>
                 <li><a href="<?php echo esc_url(home_url('blog')); ?>" class="link-footer">Blog</a></li>
                 <li><a href="<?php echo esc_url(home_url('dons-associatifs')); ?>" class="link-footer">Dons Associatifs</a></li>
-                <li><a href="<?php echo esc_url(home_url('contact')); ?>" class="link-footer" >Contact</a></li>
+                <li><a href="<?php echo esc_url(home_url('contact')); ?>" class="link-footer">Contact</a></li>
                 <li><a href="<?php echo esc_url(home_url('mentions-legales')); ?>" class="link-footer">Mentions légales</a></li>
                 <li><a href="" class="link-footer">Politique de confidentialité</a></li>
             </ul>
@@ -59,7 +61,7 @@
     </div>
 </footer>
 <!-- </div> -->
-</div>
+<!-- </div> -->
 
 <?php wp_footer(); ?>
 
