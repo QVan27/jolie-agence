@@ -514,8 +514,20 @@ strong {
 .second-box-1 {
 	width: 60%;
 	background-image: url(asset/img/couple.jpg);
-	background-size: cover;
+	/* background-size: cover;
+	background-repeat: no-repeat; */
+
+	/* https://www.w3schools.com/howto/howto_css_parallax.asp
+	The image used
+	*/
+	/* background-image: url("img_parallax.jpg"); */
+	/* Set a specific height */
+	min-height: 300px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .second-box-2 {
@@ -545,7 +557,7 @@ strong {
 }
 
 .second-box-content-p {
-	font-size: 1.4em;
+	font-size: 1.2em;
 	line-height: 140%;
 	margin-bottom: 3vh;
 }
@@ -553,7 +565,7 @@ strong {
 .second-box-content a {
 	padding: 15px 25px;
 	background-color: var(--beige-color);
-	font-size: 1.2em;
+	font-size: 1em;
 	border-radius: 5px;
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 	letter-spacing: 1px;
@@ -579,6 +591,7 @@ strong {
 
 .third-box-1 {
 	width: 60%;
+	padding: 0 5%;
 	background-size: cover;
 	background-color: var(--beige-color);
 	display: flex;
@@ -592,9 +605,16 @@ strong {
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 40%;
+
+	
 }
 
 .third-box-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 50vh;
 	width: auto;
 	height: auto;
 	text-align: center;
@@ -641,11 +661,12 @@ strong {
 	padding: 15px 25px;
 	background-color: var(--tabac-color);
 	color: var(--beige-color);
-	font-size: 1.2em;
+	font-size: 1em;
 	border-radius: 5px;
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 	letter-spacing: 1px;
 	font-weight: 600;
+	margin-top: 20px;
 }
 
 .cta-see-more-tabac:hover {
@@ -662,11 +683,19 @@ strong {
 #fourth {
 	display: flex;
 	min-width: 100vw;
-	min-height: 50vh;
-	background-position: 50% 60%;
-	background-size: cover;
 	position: relative;
 	z-index: 0;
+	/* https://www.w3schools.com/howto/howto_css_parallax.asp
+	The image used
+	*/
+	/* background-image: url("img_parallax.jpg"); */
+	/* Set a specific height */
+	min-height: 300px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .overlay-fourth {
@@ -719,6 +748,8 @@ strong {
 	background-color: var(--beige-color);
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
+	padding: 15vh 5%;
 }
 
 .fifth-bigbox-prestation {
@@ -957,13 +988,18 @@ strong {
 	display: flex;
 	align-items: center;
 	background-image: url("../la_jolie_agence/asset/img/footer.jpg");
-	background-position: 50% 15%;
+	/* background-position: 50% 15%;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; */
 	position: relative;
 	z-index: 1;
 	filter: contrast(150%);
 	filter: brightness(1);
+	min-height: 60vh;
+    background-attachment: fixed;
+    background-position: 0 37vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .opacityFooter {
@@ -1491,17 +1527,18 @@ strong {
 /* END PRESTATION */
 
 /* start blog */
+
 #blog {
 	padding: 10vh 5%;
 	min-height: 100vh;
-    height: auto;
+	height: auto;
 }
 
 .box-article-blog {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		grid-gap: 40px;
-		width: 100%;		
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 40px;
+	width: 100%;
 }
 
 .card {
@@ -1511,11 +1548,13 @@ strong {
 	flex-direction: column;
 	justify-content: space-between;
 }
-.split-card{
+
+.split-card {
 	border-radius: 5px;
 	border: solid 1px rgba(0, 0, 0, 0.070);
 }
-.split-card h3{
+
+.split-card h3 {
 	font-family: "source_serif_problack", sans-serif;
 }
 
@@ -1523,12 +1562,14 @@ strong {
 	height: 50%;
 	border: none;
 }
+
 .split-top img {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
 	border-radius: 5px;
 }
+
 .split-bottom {
 	/* max-height: 58%; */
 	min-height: 48%;
@@ -1538,15 +1579,18 @@ strong {
 	flex-direction: column;
 	justify-content: space-between;
 }
+
 .box-auteur-link {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
+
 .box-auteur-link h4, .link-single {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
+
 .box-auteur-link h4 {
 	font-size: .6em;
 	font-weight: 600;
@@ -1554,50 +1598,56 @@ strong {
 
 .link-single {
 	font-size: .7em;
-	
 	font-weight: 700;
 }
 
 .blog-h2 {
 	margin-bottom: 5vh;
 }
+
 .blog-h2 h2 {
 	font-weight: 600;
 	font-size: 2.2em;
 	line-height: 1.2em;
 	color: var(--bleu-color);
 }
+
 /* end blog */
+
 /* start single-article */
+
 .article-single {
 	padding: 15vh 5% 10vh 5%;
 	min-height: 100vh;
-	height: auto;	
+	height: auto;
 }
 
-.box-img-single{
+.box-img-single {
 	width: 100%;
 	height: 50vh;
 	text-align: center;
 }
-.box-img-single img{
+
+.box-img-single img {
 	width: auto;
 	height: auto;
 	max-height: 100%;
 	border-radius: 5px;
-	
 }
+
 .article-item-content-single {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
+
 .title-article {
 	font-weight: bold;
 	font-size: 2.2em;
 	line-height: 1.2em;
 	color: var(--bleu-color);
 }
+
 .content-article {
 	width: 80%;
 	text-align: left;
@@ -1605,15 +1655,15 @@ strong {
 	line-height: 1.5em;
 	color: var(--bleu-color);
 }
+
 .p-auteur {
 	margin: 5vh 0;
 	font-style: italic;
 	font-weight: 600;
 	font-size: 1em;
 }
+
 /* end single-article */
-
-
 
 /* START RESPONSIVE */
 

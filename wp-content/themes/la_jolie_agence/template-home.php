@@ -65,7 +65,7 @@ get_header(); ?>
         <div class="third-box-2"></div>
     </section>
 
-    <section id="fourth" data-scroll-section style="background-image: url(<?= get_template_directory_uri() . '/asset/img/table.jpg' ?>);">
+    <section id="fourth" style="background-image: url(<?= get_template_directory_uri() . '/asset/img/table.jpg' ?>);">
         <div class="overlay-fourth"></div>
         <div class="fourth-box-content">
             <h3>WEDDING PLANNER EN NOUVELLE AQUITAINE</h3>
@@ -74,7 +74,7 @@ get_header(); ?>
         </div>
     </section>
 
-    <section id="fifth" data-scroll-section>
+    <section id="fifth">
         <h2>Nos Prestations</h2>
         <div class="fifth-bigbox-prestation">
             <div id="fifth-content">
@@ -206,16 +206,9 @@ get_header(); ?>
                 <h2>Blog</h2>
                 <p class="adeline">Qu'est-ce qu'un shooting d'inspiration ?</p>
                 <div class="third-box-content-p">
-                    <p class="tabac">FUTUR (E) S MARIE(E)S, VOUS RECHERCHEZ DES IDÉES DE
-                        DÉCORATION, UNE AMBIANCE QUE VOUS AVEZ VU SUR
-                        PINTEREST, UN COSTUME AVEC LA MÊME COUPE QUE CELUI DU
-                        PRINCE HARRY À SON MARIAGE .... (BON PEUT-ÊTRE PAS)
-                        MAIS EN TOUT CAS, TOUTES CES IMAGES VOUS FONT RÊVER,
-                        EST CE QU'IL EST POSSIBLE DE RÉALISER LA MÊME
-                        SCENOGRAPHIE QUE SUR LA PHOTO?</p>
-                    <p class="italic"><a href="">lire la suite</a></p>
+                    <p class="tabac">Futur(e)s marié(e)s, vous recherchez des idées de décoration, une ambiance que vous avezvu sur internet, un costume avec la même coupe que celui du prince Harry à son mariage... (bon peut-être pas) mais en tout cas, toutes ces images vous font rêver, est ce qu'il est possible de réaliser la même scénographie que sur la photo ?</p>
                 </div>
-                <a class="cta-see-more-tabac" href="https://www.instagram.com/lajolieagence/">Voir plus d'articles</a>
+                <a class="cta-see-more-tabac" href="<?php echo esc_url(home_url('blog')); ?>">Voir plus d'articles</a>
             </div>
         </div>
         <div class="third-box-2 img-2"></div>
