@@ -590,7 +590,7 @@ strong {
 	width: 60%;
 	padding: 0 5%;
 	background-size: cover;
-	background-color: var(--beige-color);
+	background-color: #fff;
 	display: flex;
 	align-items: center;
 	position: relative;
@@ -744,7 +744,7 @@ strong {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	padding: 15vh 5%;
+	padding: 10vh 5%;
 }
 
 .fifth-bigbox-prestation {
@@ -952,7 +952,7 @@ strong {
 .gallery {
 	width: 100%;
 	padding: 10vh 5%;
-	background-color: var(--beige-color);
+	background-color: #fff;
 }
 
 .box-gallery {
@@ -1224,7 +1224,7 @@ strong {
 }
 
 .bigbox-about {
-	background-color: var(--beige-color);
+	background-color: #fff;
 	position: relative;
 	padding: 10vh 5%;
 }
@@ -1589,10 +1589,8 @@ strong {
 /* START PRESTATION */
 
 .bigbox-prestation {
-	background-color: var(--beige-color);
-	padding-bottom: 10%;
+	background-color: #fff;
 	position: relative;
-	padding-top: 10%;
 }
 
 .front img {
@@ -1883,6 +1881,16 @@ strong {
 
 .pl5 {
 	padding-left: 5%;
+}
+.pt5 {
+	padding-top: 5%;
+}
+.pb5 {
+	padding-bottom: 5%;
+}
+
+.p10vh_5 {
+	padding: 10vh 5%;
 }
 
 .taR {

@@ -16,7 +16,7 @@ get_header(); ?>
         </div>
     </div>
 </section>
-<section id="blog">
+<section id="blog" class="p10vh_5">
     <div class="blog-h2">
         <h2>Découvrez nos articles :</h2>
     </div>
