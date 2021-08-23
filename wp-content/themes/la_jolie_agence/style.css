@@ -263,10 +263,6 @@ strong {
 	z-index: 100;
 }
 
-.active-navbar {
-background-color: var(--beige-color);
-}
-
 .navbar .container {
 	height: 80px;
 	display: flex;
@@ -297,10 +293,6 @@ background-color: var(--beige-color);
 	text-transform: uppercase;
 	font-size: 13px;
 	letter-spacing: 1px;
-}
-
-.active-nav-link {
-	color: var(--bleu-color);
 }
 
 .nav-link:after {
@@ -521,7 +513,6 @@ background-color: var(--beige-color);
 	background-image: url(asset/img/couple.jpg);
 	/* background-size: cover;
 	background-repeat: no-repeat; */
-
 	/* https://www.w3schools.com/howto/howto_css_parallax.asp
 	The image used
 	*/
@@ -611,8 +602,6 @@ background-color: var(--beige-color);
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 40%;
-
-	
 }
 
 .third-box-content {
@@ -920,10 +909,10 @@ background-color: var(--beige-color);
 
 #parallax {
 	display: flex;
-    align-items: center;
+	align-items: center;
 	max-width: 100%;
 	position: relative;
-	box-shadow:inset 0 0 0 2000px var(--overlay-color);
+	box-shadow: inset 0 0 0 2000px var(--overlay-color);
 	/* text-align: center; */
 	/* https://www.w3schools.com/howto/howto_css_parallax.asp
 	The image used
@@ -938,7 +927,6 @@ background-color: var(--beige-color);
 	background-size: cover;
 }
 
-
 .page-title {
 	display: flex;
 	flex-direction: column;
@@ -952,7 +940,7 @@ background-color: var(--beige-color);
 	text-align: center;
 	margin-top: 20px;
 	font-size: 1.1em;
-    line-height: 1.5em;
+	line-height: 1.5em;
 }
 
 .page-title h1 {
@@ -1017,10 +1005,10 @@ background-color: var(--beige-color);
 	filter: contrast(150%);
 	filter: brightness(1);
 	min-height: 60vh;
-    background-attachment: fixed;
-    background-position: 0 37vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-attachment: fixed;
+	background-position: 0 37vh;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .opacityFooter {
@@ -1178,8 +1166,9 @@ background-color: var(--beige-color);
 	background-repeat: no-repeat;
 	background-size: cover;
 	/* background-color: var(--overlay-color); */
-	box-shadow:inset 0 0 0 2000px var(--overlay-color);
+	box-shadow: inset 0 0 0 2000px var(--overlay-color);
 }
+
 .presta {
 	width: 100%;
 	position: relative;
@@ -1193,7 +1182,7 @@ background-color: var(--beige-color);
 	background-repeat: no-repeat;
 	background-size: cover;
 	/* background-color: var(--overlay-color); */
-	box-shadow:inset 0 0 0 2000px var(--overlay-color);
+	box-shadow: inset 0 0 0 2000px var(--overlay-color);
 }
 
 .content-about {
@@ -1263,7 +1252,7 @@ background-color: var(--beige-color);
 
 .marginBottom {
 	margin-bottom: 10vh;
-	align-self: center; 
+	align-self: center;
 }
 
 .minibox-text p {
@@ -1362,7 +1351,7 @@ background-color: var(--beige-color);
 	background-position: 0 25%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	box-shadow:inset 0 0 0 2000px var(--overlay-color);
+	box-shadow: inset 0 0 0 2000px var(--overlay-color);
 	/* background-color: var(--overlay-color); */
 }
 
@@ -1380,8 +1369,6 @@ background-color: var(--beige-color);
 .box-text p {
 	text-align: center;
 }
-
-
 
 .bigbox-contact {
 	padding-top: 10vh;
@@ -1679,7 +1666,7 @@ background-color: var(--beige-color);
 /* start single-article */
 
 .article-single {
-	padding: 15vh 5% 10vh 5%;
+	padding: 0 0 10vh 0;
 	min-height: 100vh;
 	height: auto;
 }
@@ -1705,9 +1692,28 @@ background-color: var(--beige-color);
 
 .title-article {
 	font-weight: bold;
-	font-size: 2.2em;
-	line-height: 1.2em;
+	line-height: 1.5em;
 	color: var(--bleu-color);
+	min-height: 60vh;
+	position: relative;
+	width: 100%;
+	box-shadow: inset 0 0 0 2000px var(--overlay-color);
+}
+
+.w75 {
+	width: 75%;
+}
+
+.pl-5 {
+	padding-left: 5%;
+}
+
+.pr-5 {
+	padding-right: 5%;
+}
+
+.navigation-article {
+	width: 100%;
 }
 
 .content-article {

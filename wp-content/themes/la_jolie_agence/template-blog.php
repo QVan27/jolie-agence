@@ -5,9 +5,11 @@ Template Name: Blog
 get_header(); ?>
 
 <section class="banner-parallax blog-img">
-<div class="content-about">
+    <div class="content-about">
         <div id="text-about">
-            <div id="save"><h1>La Jolie Agence</h1></div>
+            <div id="save">
+                <h1>La Jolie Agence</h1>
+            </div>
         </div>
         <div class="married">
             <h2>blog</h2>
@@ -34,15 +36,15 @@ get_header(); ?>
                 <?php while ($the_query->have_posts()) {
                     $the_query->the_post();
                     $id = get_the_ID();
-            $metas = get_post_meta($id); ?>
-           
+                    $metas = get_post_meta($id); ?>
+
                     <div class="card">
                         <div class="split-card split-top">
                             <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="">
                         </div>
                         <div class="split-card split-bottom">
                             <h3><?= get_the_title(); ?></h3>
-                            <p><?= wp_trim_words( $metas['contenu'][0], 20 ); ?></p>
+                            <p><?= wp_trim_words($metas['contenu'][0], 20); ?></p>
                             <div class="box-auteur-link">
                                 <h4><?= $metas['auteur'][0]; ?></h4>
                                 <a href="<?php echo get_the_permalink(); ?>" class="link-single">voir plus</a>
