@@ -1168,7 +1168,6 @@ strong {
 	/* background-color: var(--overlay-color); */
 	box-shadow: inset 0 0 0 2000px var(--overlay-color);
 }
-<<<<<<< HEAD
 .don {
 	width: 100%;
 	position: relative;
@@ -1184,9 +1183,6 @@ strong {
 	/* background-color: var(--overlay-color); */
 	box-shadow:inset 0 0 0 2000px var(--overlay-color);
 }
-=======
-
->>>>>>> 8c2cf3fbb7a3e7b6856e47b6a43b834066c0bcf1
 .presta {
 	width: 100%;
 	position: relative;
