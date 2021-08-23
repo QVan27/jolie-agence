@@ -4,9 +4,14 @@ Template Name: Blog
 */
 get_header(); ?>
 
-<section class="banner-parallax" data-scroll-section class="parallax-window-about" data-parallax="scroll" data-image-src="<?php echo get_template_directory_uri() . '/asset/img/table.jpg' ?>">
-    <div class="content-about" data-scroll data-scroll-delay="0.04" data-scroll-speed="3">
-        <h1>Blog</h1>
+<section class="banner-parallax blog-img">
+<div class="content-about">
+        <div id="text-about">
+            <div id="save"><h1>La Jolie Agence</h1></div>
+        </div>
+        <div class="married">
+            <h2>blog</h2>
+        </div>
     </div>
 </section>
 <section id="blog">

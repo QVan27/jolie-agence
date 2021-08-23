@@ -23,17 +23,5 @@ $(window).load(function () {
   //   }
   // });
 
-  // locomotive Scroll
-
-  const scroller = new LocomotiveScroll({
-    el: document.querySelector("[data-scroll-container]"),
-    smooth: true,
-  });
-});
-
-// Parallax
-  // $(".third-box-2").parallax({
-  //   imageSrc: "wp-content/themes/la_jolie_agence/asset/img/adeline.jpg",
-  // });
   
-  $('.third-box-2').parallax({imageSrc: 'wp-content/themes/la_jolie_agence/asset/img/adeline.jpg'});
+});

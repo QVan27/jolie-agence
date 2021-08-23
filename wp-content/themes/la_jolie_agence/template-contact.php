@@ -46,18 +46,23 @@ if (!empty($_POST['submitted'])) {
     }
 }
 get_header(); ?>
-<section class="banner-parallax" data-scroll-section class="parallax-window-about" data-parallax="scroll" data-image-src="<?php echo get_template_directory_uri() . '/asset/img/table.jpg' ?>">
-    <div class="content-about" data-scroll data-scroll-delay="0.04" data-scroll-speed="3">
-        <h1>Contact</h1>
+<section class="banner-parallax">
+<div class="content-about">
+        <div id="text-about">
+            <div id="save"><h1>La Jolie Agence</h1></div>
+        </div>
+        <div class="married">
+            <h2>À propos</h2>
+        </div>
     </div>
 </section>
 
-<div class="bigbox-about bigbox-contact" data-scroll-section>
+<div class="bigbox-about bigbox-contact">
     <div class="minibox-content">
 
         <div class="box-reseaux">
-            <a href="https://www.facebook.com/lajolieagence" target="_blank"><i class="about fab fa-facebook-square fa-3x"></i></a>
-            <a href="https://www.instagram.com/lajolieagence/" target="_blank"></i><i class="about fab fa-instagram fa-3x"></i></a>
+            <a href="https://www.facebook.com/lajolieagence" target="_blank"><i class="color-icons fab fa-facebook-square fa-3x"></i></a>
+            <a href="https://www.instagram.com/lajolieagence/" target="_blank"></i><i class="color-icons fab fa-instagram fa-3x"></i></a>
         </div>
 
         <div class="box-text">

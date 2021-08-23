@@ -429,11 +429,8 @@ strong {
 	overflow: hidden;
 }
 
-.pink-dot {
-	color: #f0394d;
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
+#save {
+	font-weight: 600;
 }
 
 .married {
@@ -444,7 +441,7 @@ strong {
 	margin-top: 50px;
 }
 
-.married p {
+.married h2 {
 	font-size: 20px;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -693,7 +690,7 @@ strong {
 	min-height: 300px;
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
-	background-position: center;
+	background-position: 0 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -913,18 +910,31 @@ strong {
 /* GALLERY */
 
 #parallax {
-	height: 350px;
+	display: flex;
+    align-items: center;
 	max-width: 100%;
 	position: relative;
-	background-color: var(--overlay-color);
+	box-shadow:inset 0 0 0 2000px var(--overlay-color);
+	/* text-align: center; */
+	/* https://www.w3schools.com/howto/howto_css_parallax.asp
+	The image used
+	*/
+	background-image: url("asset/img/elopement.jpg");
+	/* Set a specific height */
+	min-height: 60vh;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: 0 80%;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+
 
 .page-title {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	color: var(--beige-color);
-	padding-top: 200px;
 }
 
 .page-title .white-p {
@@ -932,6 +942,8 @@ strong {
 	height: auto;
 	text-align: center;
 	margin-top: 20px;
+	font-size: 1.1em;
+    line-height: 1.5em;
 }
 
 .page-title h1 {
@@ -1144,20 +1156,41 @@ strong {
 
 /* START ABOUT */
 
-#about {
-	min-height: 60vh;
+.about {
 	width: 100%;
 	position: relative;
 	z-index: 0;
-	text-align: center;
+	/* https://www.w3schools.com/howto/howto_css_parallax.asp
+	*/
+	background-image: url("asset/img/solange-dominique.jpg");
+	min-height: 60vh;
+	background-attachment: fixed;
+	background-position: 0 25%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background-color: var(--overlay-color); */
+	box-shadow:inset 0 0 0 2000px var(--overlay-color);
+}
+.presta {
+	width: 100%;
+	position: relative;
+	z-index: 0;
+	/* https://www.w3schools.com/howto/howto_css_parallax.asp
+	*/
+	background-image: url("asset/img/couple.jpg");
+	min-height: 60vh;
+	background-attachment: fixed;
+	background-position: 0 25%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background-color: var(--overlay-color); */
+	box-shadow:inset 0 0 0 2000px var(--overlay-color);
 }
 
 .content-about {
-	/* display: inline-block; */
 	text-align: center;
 	max-width: 750px;
 	width: 100%;
-	/* padding-top: 200px; */
 	color: var(--beige-color);
 	position: absolute;
 	top: 50%;
@@ -1174,7 +1207,6 @@ strong {
 	align-items: center;
 	flex-direction: column;
 	font-size: 5em;
-	/* overflow: hidden; */
 }
 
 .bigbox-about {
@@ -1183,7 +1215,7 @@ strong {
 	padding: 10vh 5%;
 }
 
-.bigbox-about h1 {
+.bigbox-about h3 {
 	font-size: 3em;
 	margin-bottom: 10vh;
 	color: var(--bleu-color);
@@ -1202,7 +1234,7 @@ strong {
 	margin: 0 20px;
 }
 
-.about {
+.color-icons {
 	color: var(--tabac-color);
 }
 
@@ -1218,13 +1250,11 @@ strong {
 	min-height: 50vh;
 	display: flex;
 	justify-content: space-between;
-	/* align-items: center; */
 }
 
 .marginBottom {
 	margin-bottom: 10vh;
-	/* display: flex;
-	align-self: center; */
+	align-self: center; 
 }
 
 .minibox-text p {
@@ -1259,9 +1289,15 @@ strong {
 
 .box-img {
 	width: 100%;
-	min-height: 100%;
 	box-shadow: inset 0 0 0 2000px var(--overlay-color);
-	background: no-repeat 0 15% / cover url("../la_jolie_agence/asset/img/about-client.jpg");
+	background: url("../la_jolie_agence/asset/img/about-client.jpg");
+	/* https://www.w3schools.com/howto/howto_css_parallax.asp
+	*/
+	min-height: 300px;
+	background-attachment: fixed;
+	background-position: 0 10%;
+	background-repeat: no-repeat;
+	background-size: cover
 }
 
 .speakAbout {
@@ -1309,6 +1345,21 @@ strong {
 	position: relative;
 	z-index: 0;
 	text-align: center;
+	/* https://www.w3schools.com/howto/howto_css_parallax.asp
+	*/
+	background-image: url("asset/img/contact-img.jpg");
+	min-height: 60vh;
+	background-attachment: fixed;
+	background-position: 0 25%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow:inset 0 0 0 2000px var(--overlay-color);
+	/* background-color: var(--overlay-color); */
+}
+
+.blog-img {
+	background-image: url("asset/img/blog1.jpg");
+	background-position: 0 30%;
 }
 
 .box-text {
@@ -1321,10 +1372,7 @@ strong {
 	text-align: center;
 }
 
-.banner-parallax h1 {
-	font-size: 3em;
-	font-weight: 600;
-}
+
 
 .bigbox-contact {
 	padding-top: 10vh;
@@ -1571,7 +1619,6 @@ strong {
 }
 
 .split-bottom {
-	/* max-height: 58%; */
 	min-height: 48%;
 	height: auto;
 	padding: 2%;

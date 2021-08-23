@@ -3,16 +3,20 @@
 Template Name: Galery
 */
 get_header(); ?>
-<div id="parallax" data-scroll-section class="parallax-window-about" data-parallax="scroll" data-image-src="<?php echo get_template_directory_uri() . '/asset/img/elopement.jpg' ?>">
-    <div class="page-title" data-scroll data-scroll-delay="0.04" data-scroll-speed="3">
-        <h1>Portfolio</h1>
-        <p class="white-p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices malesuada ante quis pharetra. Nullam non bibendum dolor. Ut vel turpis. orem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices malesuada ante quis pharetra. Nullam non bibendum dolor. Ut vel turpis
-        </p>
+<!-- <div id="parallax" data-scroll-section class="parallax-window-about" data-parallax="scroll" data-image-src="<?php echo get_template_directory_uri() . '/asset/img/elopement.jpg' ?>"> -->
+
+<div id="parallax">
+<div class="content-about">
+        <div id="text-about">
+            <div id="save"><h1>La Jolie Agence</h1></div>
+        </div>
+        <div class="married">
+            <h2>portfolio</h2>
+        </div>
     </div>
 </div>
 
-<section class="gallery" data-scroll-section>
+<section class="gallery">
     <div class="box-gallery">
     <?php $args = array(
                 'post_type' => 'galerie',

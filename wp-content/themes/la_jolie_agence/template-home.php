@@ -4,7 +4,7 @@ Template Name: Home
 */
 get_header(); ?>
 <main>
-    <section id="banner" data-scroll-section>
+    <section id="banner">
         <div class="flexslider">
 
             <?php $args = array(
@@ -27,10 +27,10 @@ get_header(); ?>
         </div>
     </section>
 
-    <section id="second" data-scroll-section>
+    <section id="second">
         <div class="second-box-1"></div>
         <div class="second-box-2">
-            <div class="second-box-content" data-scroll="" data-scroll-delay="0.09" data-scroll-speed="1">
+            <div class="second-box-content">
                 <h1>Wedding Planner en Nouvelle Aquitaine</h1>
                 <div class="second-box-content-p">
                     <p>L'agence accompagne les futur(e)s marié (e)s et les mari (é)s
@@ -49,9 +49,9 @@ get_header(); ?>
         </div>
     </section>
 
-    <section id="third" data-scroll-section>
+    <section id="third">
         <div class="third-box-1">
-            <div class="third-box-content" data-scroll="" data-scroll-delay="0.09" data-scroll-speed="1" data-scroll-call="dynamicColor" data-scroll-repeat="">
+            <div class="third-box-content">
                 <h2>Qui sommes nous ?</h2>
                 <p class="adeline">Adeline ROUX - La Jolie Agence</p>
                 <div class="third-box-content-p">
@@ -59,7 +59,7 @@ get_header(); ?>
                     <p class="tabac"> La Jolie Agence crée sur mesure chaque évènements afin qu'il soit unique. L'agence possède un carnet d'adresse de professionnels de confiance pour que votre journée soit à votre image et à la hauteur de vos envies!</p>
                     <p class="italic">"Chaque nouvelle rencontre est un voyage"</p>
                 </div>
-                <a class="cta-see-more-tabac" href="#">En savoir plus</a>
+                <a class="cta-see-more-tabac" href="<?php echo esc_url(home_url('a-propos')); ?>">En savoir plus</a>
             </div>
         </div>
         <div class="third-box-2"></div>
@@ -198,11 +198,11 @@ get_header(); ?>
 
     </section> -->
 
-    <section id="third" data-scroll-section>
+    <section id="third">
         <div class="third-box-1">
             <div class="top-bar-tabac"></div>
             <div class="bottom-bar-tabac"></div>
-            <div class="third-box-content" data-scroll="" data-scroll-delay="0.09" data-scroll-speed="1" data-scroll-call="dynamicColor" data-scroll-repeat="">
+            <div class="third-box-content">
                 <h2>Blog</h2>
                 <p class="adeline">Qu'est-ce qu'un shooting d'inspiration ?</p>
                 <div class="third-box-content-p">

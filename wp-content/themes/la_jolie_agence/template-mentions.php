@@ -4,13 +4,18 @@ Template Name: Mentions
 */
 get_header(); ?>
 
-<section class="banner-parallax" data-scroll-section class="parallax-window-about" data-parallax="scroll" data-image-src="<?php echo get_template_directory_uri() . '/asset/img/slide3.jpg' ?>">
-    <div class="content-about" data-scroll data-scroll-delay="0.04" data-scroll-speed="3">
-        <h1>Mentions Légales</h1>
+<section class="banner-parallax">
+<div class="content-about">
+        <div id="text-about">
+            <div id="save"><h1>La Jolie Agence</h1></div>
+        </div>
+        <div class="married">
+            <h2>mentions légales</h2>
+        </div>
     </div>
 </section>
 
-<div class="bigbox-about bigbox-contact line" data-scroll-section>
+<div class="bigbox-about bigbox-contact line">
     <h2>Informations légales</h2>
     <h3>1. Présentation du site.</h3>
     <p>En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site <a href="//www.lajolieagence.fr/">www.lajolieagence.fr</a> l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi :</p>
