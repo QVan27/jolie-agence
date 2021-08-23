@@ -217,10 +217,10 @@ p, a {
 	color: var(--beige-color);
 }
 
-#second, #third, #fifth, #sixth, #seventh, #mentions, #blog, {
+/* #second, #third, #fifth, #sixth, #seventh, #mentions, #blog {
 	padding: 10vh 5%;
 	background-color: var(--beige-color);
-}
+} */
 
 strong {
 	font-weight: bold;
