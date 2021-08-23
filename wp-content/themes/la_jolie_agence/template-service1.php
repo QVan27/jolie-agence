@@ -15,79 +15,6 @@ get_header(); ?>
 		</div>
 	</div>
 </section>
-<!-- <div class="bigbox-about bigbox-contact" data-scroll-section>
-	<div class="box-back">
-    <a href="<?php echo esc_url(home_url('prestation')); ?>"><i class=" about fas fa-arrow-circle-left fa-3x "></i></a>
-    </div>
-<section id=timeline>
-	<div class="demo-card-wrapper">
-		<div class="demo-card demo-card--step1">
-			<div class="head">
-				<div class="number-box">
-					<span>01</span>
-				</div>
-				<h2><span class="small">Organisation complète</span> avec la coordination du Jour J</h2>
-			</div>
-			<div class="body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
-				
-			</div>
-		</div>
-
-		<div class="demo-card demo-card--step2">
-			<div class="head">
-				<div class="number-box">
-					<span>02</span>
-				</div>
-				<h2><span class="small">Coordination</span> Jour J </h2>
-			</div>
-			<div class="body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
-				
-			</div>
-		</div>
-
-		<div class="demo-card demo-card--step3">
-			<div class="head">
-				<div class="number-box">
-					<span>03</span>
-				</div>
-				<h2><span class="small"> </span> Elopement</h2>
-			</div>
-			<div class="body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
-			
-			</div>
-		</div>
-
-		<div class="demo-card demo-card--step4">
-			<div class="head">
-				<div class="number-box">
-					<span>04</span>
-				</div>
-				<h2><span class="small">Pack</span>Decoration</h2>
-			</div>
-			<div class="body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
-				
-			</div>
-		</div>
-
-		<div class="demo-card demo-card--step5">
-			<div class="head">
-				<div class="number-box">
-					<span>05</span>
-				</div>
-				<h2><span class="small">La Jolie</span> Agence</h2>
-			</div>
-			<div class="body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
-				
-			</div>
-		</div>
-    
-	</div>
-</section> -->
 
 <div class="box-content-text p105">
 	<div class="minibox-text marginBottom">
@@ -117,11 +44,18 @@ get_header(); ?>
 	</div>
 
 	<div class="minibox-text reverse marginBottom">
-		<p>A travers le jeu, une organisation dans 4 écoles différentes, avec 60 enfants par classe s’est mise en place pour apprendre des jeux .Une Olympiade a été organisée au milieu de la brousse avec plus de 300 enfants et un large public venus applaudir sa jeunesse.<br><br>
-			L’association parraine des enfants qui ont une famille démunie, ou qui sont orphelins, elle les accompagne et les aide à acheter du matériel scolaire, des vêtements et parfois de la nourriture. L’éducation est primordiale au Burkina, et les études ont un coût.<br><br>
-			Le parrainage permet de poursuivre leur scolarité. De nombreux enfants parrainés ont eu l’opportunité d’être étudiants dans l’enseignement supérieur dont celles de soutenir une thèse en médecine <br><br>
-
-		</p>
+		<div class="box-presta-text pl5 taR">
+			<h3>Coordination Jour J</h3>
+			<p>
+				C'est votre journée, et vous souhaitez profiter ?
+				Nous nous rencontrons afin d’échanger sur votre joli jour et connaître les prestataires choisis.
+				Nous prenons vos prestataires afin de travailler ensemble sur votre journée et afin que celle-ci vous ressemble.
+				Nous organiserons des visites techniques sur le lieu de réception. Nous serons au plus près de chaque prestataire afin de définir avec eux, leurs contraintes et régler les détails techniques.
+				Nous n’oublierons pas de nous mettre en lien avec vos invités pour échanger avec eux sur les surprises ou animations envisagées.
+				Nous pourrons ainsi conseiller, et coordonner ces jolis moments avec les prestataires concernés.
+				A partir de 1 600€ * Présence du matin de l’évènement jusqu’au soir après la première danse. La création de la décoration et la désinstallation ne sont pas inclus dans cette prestation.
+			</p>
+		</div>
 		<div class="minibox-img minibox-img_2">
 			<style>
 				.minibox-img_2 {
@@ -132,19 +66,37 @@ get_header(); ?>
 		</div>
 	</div>
 
-	<div class="minibox-text reverse">
-		<div class="box-img-dons">
+	<div class="minibox-text marginBottom">
+		<div class="box-presta-text pr5">
+			<h3>Elopement</h3>
+			<p>
+				Vous rêvez de vous isoler et de n'être que deux avec vos témoins, en haut d'une montagne ou au milieu d'un lac ?
 
+				Elopement signifie fugue amoureuse tel Roméo et Juliette.
+				Et oui, ici on adore les classiques et pour cause, ils ont le don de nous faire rêver.
+				L’Elopement, c’est votre moment à deux ! L’idée de s’enfuir en haut d’une montagne, au milieu d’un lac, sur une péniche ou encore sur une plage aux Maldives, vous donne envie ?
+
+				C’est une union sans protocole, tout comme la cérémonie laïque, c’est un engagement de deux êtres, en comité réduit.
+				Fuguez avec vos témoins, vos enfants, vos parents ou vos amis pour vivre une cérémonie unique.
+				Afin d’échanger sur vos envies et vos besoins pour cette fugue, nous convenons d’un rendez-vous sans engagement.
+				Nous recherchons et vous conseillons les prestataires de vos rêves : lieu, photographe, traiteur, fleuriste…. Nous installons votre lieu pour créer une ambiance intimiste qui vous ressemble.
+				Nous sommes à l’écoute et vous offrons une analyse personnalisée de votre journée.
+				* L’installation de la décoration et la désinstallation sont inclus dans cette prestation. Le tarif n’inclut pas les prestataires (location du lieu, traiteur, photographe, fleuriste, papeterie, déplacements, hébergement…)
+				A Partir de 2 100 €
+
+			</p>
 		</div>
-	</div>
 
-	<div class="minibox-text center">
-		<div class="speakDons">
-			<p>Notre objectif est d’aider l’association à se développer et offrir un soutien financier aux enfants burkinabés dans le besoin. L’objectif est de leur permettre de réaliser leur rêve d’études.Nous nous engageons à donner au moins 10 % de notre chiffre d’affaires annuel en continu pour le parrainage scolaire. N’oubliez pas, une nouvelle rencontre c’est un nouveau voyage qui commence ! Vous pouvez en savoir plus sur http://burkinabray.canalblog.com/</p>
+		<div class="minibox-img">
+			<style>
+				.minibox-img {
+					background: url(<?= get_template_directory_uri() . '/asset/img/1-dons.jpg' ?>) no-repeat center;
+					background-size: cover;
+					min-height: 100%;
+					max-height: 100%;
+				}
+			</style>
 		</div>
-	</div>
-	<div class="box-img-dons2">
-
 	</div>
 
 </div>
