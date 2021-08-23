@@ -1171,6 +1171,21 @@ strong {
 	/* background-color: var(--overlay-color); */
 	box-shadow:inset 0 0 0 2000px var(--overlay-color);
 }
+.don {
+	width: 100%;
+	position: relative;
+	z-index: 0;
+	/* https://www.w3schools.com/howto/howto_css_parallax.asp
+	*/
+	background-image: url("asset/img/banniere-dons.jpg");
+	min-height: 60vh;
+	background-attachment: fixed;
+	background-position: 0 25%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background-color: var(--overlay-color); */
+	box-shadow:inset 0 0 0 2000px var(--overlay-color);
+}
 .presta {
 	width: 100%;
 	position: relative;
@@ -1186,6 +1201,7 @@ strong {
 	/* background-color: var(--overlay-color); */
 	box-shadow:inset 0 0 0 2000px var(--overlay-color);
 }
+
 
 .content-about {
 	text-align: center;
@@ -1251,6 +1267,10 @@ strong {
 	display: flex;
 	justify-content: space-between;
 }
+.center {
+	justify-content: center;
+	align-items: center;
+}
 
 .marginBottom {
 	margin-bottom: 10vh;
@@ -1300,11 +1320,43 @@ strong {
 	background-size: cover
 }
 
+.box-img-dons {
+	width: 100%;
+	box-shadow: inset 0 0 0 2000px var(--overlay-color);
+	background: url("../la_jolie_agence/asset/img/3-dons.jpg");
+	/* https://www.w3schools.com/howto/howto_css_parallax.asp
+	*/
+	min-height: 300px;
+	background-attachment: fixed;
+	background-position: 0 10%;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+.box-img-dons2 {
+	width: 100%;
+	box-shadow: inset 0 0 0 2000px var(--overlay-color);
+	background: url("../la_jolie_agence/asset/img/4-dons.jpg");
+	/* https://www.w3schools.com/howto/howto_css_parallax.asp
+	*/
+	min-height: 300px;
+	background-attachment: fixed;
+	background-position: 0 10%;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
 .speakAbout {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 50%;
+}
+
+.speakDons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
 }
 
 .speakAbout h2 {
