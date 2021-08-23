@@ -1297,6 +1297,55 @@ strong {
 	background-color: #092636;
 }
 
+.minibox-img_3 {
+	background: url("asset/img/couple.jpg") no-repeat center;
+	background-size: cover;
+	min-height: 100%;
+	width: 50%;
+}
+.minibox-img_4 {
+	background: url("asset/img/couple.jpg") no-repeat center;
+	background-size: cover;
+	min-height: 100%;
+	width: 50%;
+}
+.minibox-img_5 {
+	background: url("asset/img/couple.jpg") no-repeat center;
+	background-size: cover;
+	min-height: 100%;
+	width: 50%;
+}
+.minibox-img_6 {
+	background: url("asset/img/couple.jpg") no-repeat center;
+	background-size: cover;
+	min-height: 100%;
+	width: 50%;
+}
+.minibox-img_7 {
+	background: url("asset/img/couple.jpg") no-repeat center;
+	background-size: cover;
+	min-height: 100%;
+	width: 50%;
+}
+.minibox-img_8 {
+	background: url("asset/img/couple.jpg") no-repeat center;
+	background-size: cover;
+	min-height: 100%;
+	width: 50%;
+}
+.minibox-img_9 {
+	background: url("asset/img/couple.jpg") no-repeat center;
+	background-size: cover;
+	min-height: 100%;
+	width: 50%;
+}
+.minibox-img_10 {
+	background: url("asset/img/couple.jpg") no-repeat center;
+	background-size: cover;
+	min-height: 100%;
+	width: 50%;
+}
+
 .minibox-content p {
 	display: flex;
 	align-items: center;
@@ -1381,9 +1430,13 @@ strong {
 	transform: scale(1.1);
 }
 
-.w50 {
+.w50_m5-0 {
 	width: 50%;
 	margin: 5vh 0;
+}
+
+.w50 {
+	width: 50%;
 }
 
 /* END ABOUT */
@@ -1622,6 +1675,8 @@ strong {
 	text-align: center;
 }
 
+
+.w50
 /* END PRESTATION */
 
 /* start blog */
@@ -1829,6 +1884,10 @@ strong {
 .taR {
 	text-align: right;
 }
+
+/* .bckgdBeige {
+	background-color: var(--beige-color);
+} */
 
 /* service 1 */
 

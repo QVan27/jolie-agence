@@ -16,88 +16,52 @@ get_header(); ?>
 	</div>
 </section>
 
-<div class="box-content-text p105">
+<div class="box-content-text p105 bckgdBeige">
 	<div class="minibox-text marginBottom">
-		<div class="box-presta-text pr5">
-			<h3>Organisation Complète</h3>
+		<div class="box-presta-text pr5 w50">
+			<h3>Enterrement de Vie de Jeune de Fille et de Garçon</h3>
 			<p>
-				Vous n'avez pas le temps, les préparatifs vous stressent ? Faites appel à une professionnelle.
-				Nous nous occupons de vous organiser votre journée de A à Z.
-				La Jolie Agence recherche pour vous les prestataires qui vous correspondent, tout en analysant les devis et le côté administratif.
-				Nous proposons des rdv avec les prestataires au plus près de vos attentes jusqu’à la réservation pour votre évènement.Nous élaborons un devis personnalisé et un budget prévisionnel incluant toutes les prestations demandées, y compris la nôtre.
-				La Jolie Agence vous offre toutes ses astuces et savoir-faire pour l’organisation de votre joli jour.
-				A partir de 3 590 €
-				* Présence du matin de l'événement jusqu’au soir après la première danse. La création de la décoration et la désinstallation ne sont pas inclus dans cette prestation.
+				Les pine-co et les copains d’abord !
+				Ça y est, c’est le moment où la bestah sista entre en scène !
+				Il ne reste plus beaucoup de temps avant le Jour J et il est temps d’organiser un EVJF et/ou EVG digne de ce nom, mais par où on commence ?
+				La Jolie Agence vous propose son savoir-faire et son expertise pour l’organisation de cette journée.
+				La prestation comprend, pour 6 personnes :
+				Une jolie rencontre pour échanger sur vos souhaits et les envies de la future Madame
+				Nous élaborons ensemble le nombre de participants, le lieu et le budget maximum par personne pour l’évènement
+				Nous sélectionnons et réservons les activités de la journée ou du week-end ( de nuit comme de jour)
+				Pour les gars jo, pas de panique ! La Jolie Agence vous propose les mêmes services.
+				La Jolie Agence peut également organiser les deux enterrements si vous souhaitez vous retrouvez en soirée ou à la fin du week-end. Cela permet une coordination parfaite entre les deux évènements.
+				A partir de 800€
+
 			</p>
 		</div>
 
-		<div class="minibox-img">
-			<style>
-				.minibox-img {
-					background: url(<?= get_template_directory_uri() . '/asset/img/1-dons.jpg' ?>) no-repeat center;
-					background-size: cover;
-					min-height: 100%;
-					max-height: 100%;
-				}
-			</style>
+		<div class="minibox-img_9">
+			
 		</div>
 	</div>
 
 	<div class="minibox-text reverse marginBottom">
-		<div class="box-presta-text pl5 taR">
-			<h3>Coordination Jour J</h3>
+		<div class="box-presta-text pl5 taR w50">
+			<h3>SOS Témoin</h3>
 			<p>
-				C'est votre journée, et vous souhaitez profiter ?
-				Nous nous rencontrons afin d’échanger sur votre joli jour et connaître les prestataires choisis.
-				Nous prenons vos prestataires afin de travailler ensemble sur votre journée et afin que celle-ci vous ressemble.
-				Nous organiserons des visites techniques sur le lieu de réception. Nous serons au plus près de chaque prestataire afin de définir avec eux, leurs contraintes et régler les détails techniques.
-				Nous n’oublierons pas de nous mettre en lien avec vos invités pour échanger avec eux sur les surprises ou animations envisagées.
-				Nous pourrons ainsi conseiller, et coordonner ces jolis moments avec les prestataires concernés.
-				A partir de 1 600€ * Présence du matin de l’évènement jusqu’au soir après la première danse. La création de la décoration et la désinstallation ne sont pas inclus dans cette prestation.
-			</p>
-		</div>
-		<div class="minibox-img minibox-img_2">
-			<style>
-				.minibox-img_2 {
-					background: url(<?= get_template_directory_uri() . '/asset/img/2-dons.jpg' ?>) no-repeat center;
-					background-size: cover;
-				}
-			</style>
-		</div>
-	</div>
-
-	<div class="minibox-text marginBottom">
-		<div class="box-presta-text pr5">
-			<h3>Elopement</h3>
-			<p>
-				Vous rêvez de vous isoler et de n'être que deux avec vos témoins, en haut d'une montagne ou au milieu d'un lac ?
-
-				Elopement signifie fugue amoureuse tel Roméo et Juliette.
-				Et oui, ici on adore les classiques et pour cause, ils ont le don de nous faire rêver.
-				L’Elopement, c’est votre moment à deux ! L’idée de s’enfuir en haut d’une montagne, au milieu d’un lac, sur une péniche ou encore sur une plage aux Maldives, vous donne envie ?
-
-				C’est une union sans protocole, tout comme la cérémonie laïque, c’est un engagement de deux êtres, en comité réduit.
-				Fuguez avec vos témoins, vos enfants, vos parents ou vos amis pour vivre une cérémonie unique.
-				Afin d’échanger sur vos envies et vos besoins pour cette fugue, nous convenons d’un rendez-vous sans engagement.
-				Nous recherchons et vous conseillons les prestataires de vos rêves : lieu, photographe, traiteur, fleuriste…. Nous installons votre lieu pour créer une ambiance intimiste qui vous ressemble.
-				Nous sommes à l’écoute et vous offrons une analyse personnalisée de votre journée.
-				* L’installation de la décoration et la désinstallation sont inclus dans cette prestation. Le tarif n’inclut pas les prestataires (location du lieu, traiteur, photographe, fleuriste, papeterie, déplacements, hébergement…)
-				A Partir de 2 100 €
+				La Jolie Agence a déjà fait partie de ces nombreux témoins à qui on a demandé d’être aux côtés des marié(e)s pour leur joli jour.
+				Félicitations à vous futurs témoins, vous allez être le symbole de vos marié(e)s durant les préparatifs, le Jour J et bien sûr tout au long de leur vie.
+				Les futurs marié (e)s vous ont choisi et ce n’est pas juste pour le geste ou pour signer un bout de papier
+				Non non… Il y a là, une marque de confiance importante, vous êtes le témoin de leur union
+				Vous avez besoin d’aide, d’idée d’organisation, d’écoute, de conseils pour les animations ou pour la rédaction de vos discours ?
+				Vous êtes les futurs mariés, vous souhaitez que vos témoins soient accompagnés pour l’organisation de votre mariage.
+				SOS La Jolie Agence est disponible pour vous guidez
+				A partir de 150 €
 
 			</p>
 		</div>
-
-		<div class="minibox-img">
-			<style>
-				.minibox-img {
-					background: url(<?= get_template_directory_uri() . '/asset/img/1-dons.jpg' ?>) no-repeat center;
-					background-size: cover;
-					min-height: 100%;
-					max-height: 100%;
-				}
-			</style>
+		<div class="minibox-img_10">
+			
 		</div>
 	</div>
+
+	
 
 </div>
 

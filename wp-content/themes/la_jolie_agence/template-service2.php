@@ -18,7 +18,7 @@ get_header(); ?>
 
 <div class="box-content-text p105">
 	<div class="minibox-text marginBottom">
-		<div class="box-presta-text pr5">
+		<div class="box-presta-text pr5 w50">
 			<h3>Demande en Marriage</h3>
 			<p>
 				Vous l'aimez c'est certain mais il faut sauter le pas !
@@ -33,20 +33,13 @@ get_header(); ?>
 			</p>
 		</div>
 
-		<div class="minibox-img">
-			<style>
-				.minibox-img {
-					background: url(<?= get_template_directory_uri() . '/asset/img/1-dons.jpg' ?>) no-repeat center;
-					background-size: cover;
-					min-height: 100%;
-					max-height: 100%;
-				}
-			</style>
+		<div class="minibox-img_6">
+			
 		</div>
 	</div>
 
 	<div class="minibox-text reverse marginBottom">
-		<div class="box-presta-text pl5 taR">
+		<div class="box-presta-text pl5 taR w50">
 			<h3>Renouvellement de voeux</h3>
 			<p>
 				1 an, 10 ans, 50 ans... Les années ne comptent pas, le principal c'est de s'aimer !
@@ -61,13 +54,35 @@ get_header(); ?>
 
 			</p>
 		</div>
-		<div class="minibox-img minibox-img_2">
-			<style>
-				.minibox-img_2 {
-					background: url(<?= get_template_directory_uri() . '/asset/img/2-dons.jpg' ?>) no-repeat center;
-					background-size: cover;
-				}
-			</style>
+		<div class="minibox-img_7">
+			
+		</div>
+	</div>
+	<div class="minibox-text marginBottom">
+		<div class="box-presta-text pr5 w50">
+			<h3>Baby Shower</h3>
+			<p>
+				Vous ou votre meilleure amie, sœur, cousine, voisine ….attend un bébé et vous souhaitez organiser un évènement autour de ce joli jour… La Jolie Agence propose ses services pour créer un univers à la hauteur des futurs parents et du bout’chou à venir.
+				Baby quoi ?
+				Une baby shower est une fête prénatale pour annoncer l’arrivée du bébé.
+				Elle est généralement organisée dans le troisième trimestre de la future mom*.
+				Il existe différentes formes d’organisations de la Baby Shower, elle peut se dérouler exclusivement avec seulement les pine-co de la future maman ou une grande fête entourée du futur papa et de toute la famille et les copains.
+				La prestation comprend pour 6 personnes :
+				Le déplacement à votre domicile ou lieu de votre évènement ( à moins d’une heure de trajet)
+				La décoration et son installation suivant le thème définit par vos soins
+				Un candy bar avec de jolies gourmandises (cup cake, cake design, sablés gravés….)
+				Des boissons sans alcool
+				Un coffret de 4 jeux pour l’après-midi qui comprend le matériel nécessaire ainsi que le déroulé détaillé.
+				En option :
+				La Jolie Agence peut également être présente pour le jour J et animer différents ateliers.
+				A partir de 400 €
+
+
+			</p>
+		</div>
+
+		<div class="minibox-img_8">
+			
 		</div>
 	</div>
 </div>

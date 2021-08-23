@@ -71,7 +71,7 @@ get_header(); ?>
         </div>
 
         <div class="content-text-contact">
-            <div class="w50">
+            <div class="w50_m5-0">
                 <form action="" id="form-contact" method="post" novalidate>
                     <div class="midSize">
                         <div class="halfSize">
