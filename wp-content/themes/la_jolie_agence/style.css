@@ -1790,6 +1790,25 @@ strong {
 
 /* end single-article */
 
+/* service 1 */
+.p105 {
+	padding: 10vh 5%;
+}
+
+.box-presta-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.box-presta-text p {
+	width: 100%;
+	line-height: 1.5em;
+}
+.pr5 {
+	padding-right: 5%;
+}
+/* service 1 */
+
 /* START RESPONSIVE */
 
 /* HOME */
