@@ -77,6 +77,9 @@ get_header(); ?>
     <section id="fifth">
         <h2>Nos Prestations</h2>
         <div class="fifth-bigbox-prestation">
+            <div class="text-prestation">
+                <p>Spécialiste des mariages intimistes et l'Elopement. L'agence vous accompagne de la création à l'organisation complète de votre évènement. Créative, perfectionniste avec un grain de folie, Adeline est à l'écoute de vos besoins et envies.Son objectif est de sublimer vos moments de bonheur et vous créer des instants inoubliables.</p>
+            </div>
             <div id="fifth-content">
                 <div class="container-card-flip">
                     <div class="container-prestation">
@@ -90,19 +93,17 @@ get_header(); ?>
                                         }
                                     </style>
                                 </div>
-                                <h3 class="fifth-caption">wedding day</h3>
+                                <h3 class="fifth-caption">Wedding day</h3>
                             </div>
                             <div class="back">
-                                <a href="https://en.wikipedia.org/wiki/Cherry_blossom" target="_blank">
-                                    <h4>organisation de mariage</h4>
+                                <a href="<?php echo esc_url(home_url('service1')); ?>">
+                                    <h4>Organisation de Mariage</h4>
                                 </a>
-                                <!-- <p class="date">23/07/1997</p> -->
                                 <p class="description">Venez découvrir les différentes formules qui vous correspondent pour votre mariage: <br>Organisation complète ou partielle" <br>Coordination Jour J<br>Elopement<br><span class="description_span">Barbara Luzynska</span>
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <a class="cta-see-more-tabac btn-card-home" href="<?php echo esc_url(home_url('service1')); ?>">Voir plus</a>
                 </div>
 
                 <div class="container-card-flip">
@@ -117,10 +118,10 @@ get_header(); ?>
                                         }
                                     </style>
                                 </div>
-                                <h3 class="fifth-caption">sweet moments</h3>
+                                <h3 class="fifth-caption">Sweet Moments</h3>
                             </div>
                             <div class="back">
-                                <a href="https://en.wikipedia.org/wiki/Tulip" target="_blank">
+                                <a href="<?php echo esc_url(home_url('service2')); ?>">
                                     <h4>Organisation d'évènements</h4>
                                 </a>
                                 <p class="description">Vous souhaitez créer ou
@@ -133,7 +134,6 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <a class="cta-see-more-tabac btn-card-home" href="<?php echo esc_url(home_url('service2')); ?>">Voir plus</a>
                 </div>
 
                 <div class="container-card-flip">
@@ -148,10 +148,10 @@ get_header(); ?>
                                         }
                                     </style>
                                 </div>
-                                <h3 class="fifth-caption">wedding temoins</h3>
+                                <h3 class="fifth-caption">Wedding Témoins</h3>
                             </div>
                             <div class="back">
-                                <a href="https://en.wikipedia.org/wiki/Lavandula" target="_blank">
+                                <a href="<?php echo esc_url(home_url('service3')); ?>">
                                     <h4>Spécial Témoin</h4>
                                 </a>
                                 <!-- <p class="date">06/08/2004</p> -->
@@ -166,13 +166,12 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <a class="cta-see-more-tabac btn-card-home" href="<?php echo esc_url(home_url('service3')); ?>">Voir plus</a>
+                    <!-- <a class="cta-see-more-tabac btn-card-home" href="<?php echo esc_url(home_url('service3')); ?>">Voir plus</a> -->
                 </div>
 
 
             </div>
-            <div class="more-services">
-            
+            <div class="more-services"><a href="<?php echo esc_url(home_url('prestation')); ?>" class="cta-see-more-tabac">Découvrir les prestations</a></div>
         </div>
     </section>
 

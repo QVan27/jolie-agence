@@ -32,11 +32,11 @@ get_header(); ?>
                                     }
                                 </style>
                             </div>
-                            <h3 class="fifth-caption">weeding day</h3>
+                            <h3 class="fifth-caption">Wedding Day</h3>
                         </div>
                         <div class="back">
                             <a href="https://en.wikipedia.org/wiki/Cherry_blossom" target="_blank">
-                                <h4>organisation de mariage</h4>
+                                <h4>Organisation de Mariage</h4>
                             </a>
                             <!-- <p class="date">23/07/1997</p> -->
                             <p class="description">Venez découvrir les différentes formules qui vous correspondent pour votre mariage: <br>"Organisation Complète ou partielle" <br>"Coordination Jour J " <br>"Elopement " <br><span class="description_span">Barbara Luzynska</span>
@@ -59,7 +59,7 @@ get_header(); ?>
                                     }
                                 </style>
                             </div>
-                            <h3 class="fifth-caption">sweet moments</h3>
+                            <h3 class="fifth-caption">Sweet Moments</h3>
                         </div>
                         <div class="back">
                             <a href="https://en.wikipedia.org/wiki/Tulip" target="_blank">
@@ -91,7 +91,7 @@ get_header(); ?>
                                     }
                                 </style>
                             </div>
-                            <h3 class="fifth-caption">wedding temoins</h3>
+                            <h3 class="fifth-caption">Wedding Temoins</h3>
                         </div>
                         <div class="back">
                             <a href="https://en.wikipedia.org/wiki/Lavandula" target="_blank">

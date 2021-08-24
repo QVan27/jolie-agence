@@ -736,8 +736,8 @@ strong {
 
 #fifth {
 	display: flex;
-	min-width: 100vw;
-	min-height: 100vh;
+	width: 100%;
+	height: auto;
 	background-size: cover;
 	position: relative;
 	background-color: var(--beige-color);
@@ -755,9 +755,11 @@ strong {
 }
 
 .more-services {
-	display: flex;
+	text-align: center;
+	margin-top: 6vh;
+	/* display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: center; */
 }
 
 .p-services {
@@ -776,7 +778,7 @@ strong {
 	font-family: 'source_serif_problack';
 	font-size: 4em;
 	font-weight: bold;
-	margin-bottom: 2vh;
+	margin-bottom: 5vh;
 }
 
 .fifth-caption {
@@ -784,7 +786,6 @@ strong {
 	justify-content: center;
 	align-items: center;
 	height: 20%;
-	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-family: 'source_serif_proregular';
 	font-size: 1.2em;
@@ -809,6 +810,20 @@ strong {
 	height: 80%;
 	background-size: contain;
 	border-radius: 5px 5px 0 0;
+}
+.text-prestation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 5vh;
+}
+.text-prestation p {
+	width: 50%;
+	text-align: center;
+	font-size: 1em;
+	line-height: 1.5em;
+
 }
 
 /* end fifth */
@@ -1599,7 +1614,9 @@ strong {
 }
 
 .back a {
-	color: black;
+	color: var(--bleu-color);
+	font-weight: 600;
+	font-size: 1.2em;
 }
 
 .caption, .date {
@@ -1671,6 +1688,10 @@ strong {
 .back {
 	transform: rotateY(180deg);
 	padding: 2% 2%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #content {
