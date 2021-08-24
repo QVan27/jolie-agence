@@ -18,7 +18,7 @@ get_header(); ?>
 
 <div class="box-content-text p105">
 	<div class="minibox-text marginBottom">
-		<div class="box-presta-text pr5">
+		<div class="box-presta-text pr5 w50">
 			<h3>Organisation Complète</h3>
 			<p>
 				Vous n'avez pas le temps, les préparatifs vous stressent ? Faites appel à une professionnelle.
@@ -31,20 +31,13 @@ get_header(); ?>
 			</p>
 		</div>
 
-		<div class="minibox-img">
-			<style>
-				.minibox-img {
-					background: url(<?= get_template_directory_uri() . '/asset/img/1-dons.jpg' ?>) no-repeat center;
-					background-size: cover;
-					min-height: 100%;
-					max-height: 100%;
-				}
-			</style>
+		<div class="minibox-img_3">
+			
 		</div>
 	</div>
 
 	<div class="minibox-text reverse marginBottom">
-		<div class="box-presta-text pl5 taR">
+		<div class="box-presta-text pl5 taR w50">
 			<h3>Coordination Jour J</h3>
 			<p>
 				C'est votre journée, et vous souhaitez profiter ?
@@ -56,18 +49,13 @@ get_header(); ?>
 				A partir de 1 600€ * Présence du matin de l’évènement jusqu’au soir après la première danse. La création de la décoration et la désinstallation ne sont pas inclus dans cette prestation.
 			</p>
 		</div>
-		<div class="minibox-img minibox-img_2">
-			<style>
-				.minibox-img_2 {
-					background: url(<?= get_template_directory_uri() . '/asset/img/2-dons.jpg' ?>) no-repeat center;
-					background-size: cover;
-				}
-			</style>
+		<div class="minibox-img_4">
+			
 		</div>
 	</div>
 
 	<div class="minibox-text marginBottom">
-		<div class="box-presta-text pr5">
+		<div class="box-presta-text pr5 w50">
 			<h3>Elopement</h3>
 			<p>
 				Vous rêvez de vous isoler et de n'être que deux avec vos témoins, en haut d'une montagne ou au milieu d'un lac ?
@@ -87,15 +75,8 @@ get_header(); ?>
 			</p>
 		</div>
 
-		<div class="minibox-img">
-			<style>
-				.minibox-img {
-					background: url(<?= get_template_directory_uri() . '/asset/img/1-dons.jpg' ?>) no-repeat center;
-					background-size: cover;
-					min-height: 100%;
-					max-height: 100%;
-				}
-			</style>
+		<div class="minibox-img_5">
+			
 		</div>
 	</div>
 

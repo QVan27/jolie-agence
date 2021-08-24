@@ -81,13 +81,16 @@ function la_jolie_agence_scripts()
 	wp_register_style( 'Font_Awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css' );
 	wp_enqueue_style('Font_Awesome');
 	// Locomotive Scroll .css
-	wp_register_style( 'locomotiveScroll', 'https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css' );
-	wp_enqueue_style('locomotiveScroll');
+	wp_register_style( 'cookie.css', 'https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css' );
+	wp_enqueue_style('cookie.css');
 	
 
 	// jQuery
 	wp_deregister_script('jquery');
 	wp_enqueue_script('jquery', get_template_directory_uri() . '/asset/js/jquery-1.9.1.min.js', array(), '1.9.1', true);
+	// Cookie
+	wp_deregister_script('cookie');
+	wp_enqueue_script('cookie', 'https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js', array(), '1.9.1', true);
 	// Plugins
 	// Flexslider .js
 	wp_enqueue_script('flexSliderJs', get_template_directory_uri() . '/asset/js/flexslider-min.js', array(), '1.0.2', true);
