@@ -1270,7 +1270,6 @@ strong {
 .box-img {
 	width: 100%;
 	box-shadow: inset 0 0 0 2000px var(--overlay-color);
-	background: url("../la_jolie_agence/asset/img/about-client.jpg");
 	/* https://www.w3schools.com/howto/howto_css_parallax.asp
 	*/
 	min-height: 300px;
