@@ -2,7 +2,11 @@
 /*
 Template Name: Service3
 */
-get_header(); ?>
+get_header();
+$metas = get_post_meta($id);
+$image_temoins_1 = get_field('image_1');
+$image_temoins_2 = get_field('image_2');
+ ?>
 <section class="presta">
 	<div class="content-about">
 		<div id="text-about">
@@ -36,13 +40,17 @@ get_header(); ?>
 			</p>
 		</div>
 
-		<div class="minibox-img_9">
-			
+		<div class="image_prestation img_9">
+		<style>
+				.img_9 {
+					background: url("<?= $image_temoins_1['url']; ?>") no-repeat center;
+				}
+			</style>
 		</div>
 	</div>
 
 	<div class="minibox-text reverse marginBottom">
-		<div class="box-presta-text pl5 taR w50">
+		<div class="box-presta-text pl5 w50">
 			<h3>SOS Témoin</h3>
 			<p>
 				La Jolie Agence a déjà fait partie de ces nombreux témoins à qui on a demandé d’être aux côtés des marié(e)s pour leur joli jour.
@@ -56,8 +64,12 @@ get_header(); ?>
 
 			</p>
 		</div>
-		<div class="minibox-img_10">
-			
+		<div class="image_prestation img_10">
+		<style>
+				.img_10 {
+					background: url("<?= $image_temoins_2['url']; ?>") no-repeat center;
+				}
+			</style>
 		</div>
 	</div>
 

@@ -35,7 +35,7 @@ get_header(); ?>
                             <h3 class="fifth-caption">Wedding Day</h3>
                         </div>
                         <div class="back">
-                            <a href="https://en.wikipedia.org/wiki/Cherry_blossom" target="_blank">
+                            <a href="<?= esc_url(home_url('wedding-day')); ?>">
                                 <h4>Organisation de Mariage</h4>
                             </a>
                             <!-- <p class="date">23/07/1997</p> -->
@@ -44,7 +44,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <a class="cta-see-more-tabac btn-card-home" href="<?php echo esc_url(home_url('service1')); ?>">Voir plus</a>
+                <a class="cta-see-more-tabac btn-card-home" href="<?php echo esc_url(home_url('wedding-day')); ?>">Voir plus</a>
             </div>
 
             <div class="container-card-flip">
@@ -62,7 +62,7 @@ get_header(); ?>
                             <h3 class="fifth-caption">Sweet Moments</h3>
                         </div>
                         <div class="back">
-                            <a href="https://en.wikipedia.org/wiki/Tulip" target="_blank">
+                            <a href="<?= esc_url(home_url('sweet-moments')); ?>">
                                 <h4>Organisation d'évènements</h4>
                             </a>
                             <!-- <p class="date">14/07/2001</p> -->
@@ -76,7 +76,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <a class="cta-see-more-tabac btn-card-home" href="<?php echo esc_url(home_url('service2')); ?>">Voir plus</a>
+                <a class="cta-see-more-tabac btn-card-home" href="<?php echo esc_url(home_url('sweet-moments')); ?>">Voir plus</a>
             </div>
 
             <div class="container-card-flip">
@@ -94,7 +94,7 @@ get_header(); ?>
                             <h3 class="fifth-caption">Wedding Temoins</h3>
                         </div>
                         <div class="back">
-                            <a href="https://en.wikipedia.org/wiki/Lavandula" target="_blank">
+                            <a href="<?= esc_url(home_url('wedding-temoins')); ?>">
                                 <h4>Spécial Témoin</h4>
                             </a>
                             <!-- <p class="date">06/08/2004</p> -->
@@ -109,7 +109,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <a class="cta-see-more-tabac btn-card-home" href="<?php echo esc_url(home_url('service3')); ?>">Voir plus</a>
+                <a class="cta-see-more-tabac btn-card-home" href="<?php echo esc_url(home_url('wedding-temoins')); ?>">Voir plus</a>
             </div>
         </div>
     </div>
