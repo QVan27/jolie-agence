@@ -1274,7 +1274,7 @@ strong {
 .minibox-content p {
 	display: flex;
 	align-items: center;
-	text-align: center;
+	/* text-align: center; */
 	font-size: 1em;
 	line-height: 1.5em;
 	color: var(--bleu-color);
@@ -1286,46 +1286,14 @@ strong {
 
 .box-img {
 	width: 100%;
-	box-shadow: inset 0 0 0 2000px var(--overlay-color);
+	box-shadow: inset 0 0 0 2000px var(--overlay-color), rgb(209, 213, 219) 0px 0px 0px 2px inset;
 	/* https://www.w3schools.com/howto/howto_css_parallax.asp
 	*/
 	min-height: 300px;
-	background-attachment: fixed;
-	background-position: 0 10%;
-	background-repeat: no-repeat;
-	background-size: cover
-}
-
-.box-img-dons {
-	width: 100%;
-	box-shadow: inset 0 0 0 2000px var(--overlay-color);
-	background: url("../la_jolie_agence/asset/img/3-dons.jpg");
-	/* https://www.w3schools.com/howto/howto_css_parallax.asp
-	*/
-	min-height: 300px;
-	background-attachment: fixed;
-	background-position: 0 10%;
-	background-repeat: no-repeat;
-	background-size: cover;
 	border-radius: 5px;
-	box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+	/* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset; */
 }
 
-.box-img-dons2 {
-	width: 100%;
-	box-shadow: inset 0 0 0 2000px var(--overlay-color);
-	background: url("../la_jolie_agence/asset/img/4-dons.jpg");
-	/* https://www.w3schools.com/howto/howto_css_parallax.asp
-	*/
-	min-height: 300px;
-	background-attachment: fixed;
-	background-position: 0 10%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	border-radius: 5px;
-	box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
-
-}
 
 .lien-site-dons:hover {
 	background-color: #BB8131;

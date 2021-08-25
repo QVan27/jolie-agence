@@ -91,12 +91,16 @@ function la_jolie_agence_scripts()
 	// Cookie
 	wp_deregister_script('cookie');
 	wp_enqueue_script('cookie', 'https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js', array(), '1.9.1', true);
+	// Gsap
+	wp_deregister_script('gsap');
+	wp_enqueue_script('gsap', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js', array(), '1.9.1', true);
 	// Plugins
 	// Flexslider .js
 	wp_enqueue_script('flexSliderJs', get_template_directory_uri() . '/asset/js/flexslider-min.js', array(), '1.0.2', true);
 	// LightBox .js
 	wp_enqueue_script('lightBox', get_template_directory_uri() . '/asset/js/lightbox.min.js', array(), '1.0.2', true);
 	// JS
+	wp_enqueue_script('gsap_js', get_template_directory_uri() . '/asset/js/gsap.js', array(), _S_VERSION, true);
 	wp_enqueue_script('la_jolie_agence_js', get_template_directory_uri() . '/asset/js/main.js', array(), _S_VERSION, true);
 }
 add_action('wp_enqueue_scripts', 'la_jolie_agence_scripts');

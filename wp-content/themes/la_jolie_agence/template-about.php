@@ -26,8 +26,8 @@ $image_parallax = get_field('image_parallax');
     <div class="minibox-content">
 
         <div class="box-reseaux">
-            <a href="https://www.facebook.com/lajolieagence" target="_blank"><i class="color-icons fab fa-facebook-square fa-3x"></i></a>
-            <a href="https://www.instagram.com/lajolieagence/" target="_blank"></i><i class="color-icons fab fa-instagram fa-3x"></i></a>
+            <a href="<?= $metas['liens_facebook'][0]; ?>" target="_blank"><i class="color-icons fab fa-facebook-square fa-3x"></i></a>
+            <a href="<?= $metas['liens_instagram'][0]; ?>" target="_blank"></i><i class="color-icons fab fa-instagram fa-3x"></i></a>
         </div>
 
         <div class="box-content-text">
@@ -59,7 +59,7 @@ $image_parallax = get_field('image_parallax');
                 </div>
             </div>
 
-            <div class="minibox-text marginBottom reverse">
+            <div class="minibox-text marginBottom reverse frameImg">
                 <div class="box-img">
                     <style>
                         .box-img {
