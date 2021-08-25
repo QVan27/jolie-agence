@@ -96,7 +96,7 @@ get_header(); ?>
                                 <h3 class="fifth-caption">Wedding day</h3>
                             </div>
                             <div class="back">
-                                <a href="<?php echo esc_url(home_url('service1')); ?>">
+                                <a href="<?php echo esc_url(home_url('wedding-day')); ?>">
                                     <h4>Organisation de Mariage</h4>
                                 </a>
                                 <p class="description">Venez découvrir les différentes formules qui vous correspondent pour votre mariage: <br>Organisation complète ou partielle" <br>Coordination Jour J<br>Elopement<br><span class="description_span">Barbara Luzynska</span>
@@ -121,7 +121,7 @@ get_header(); ?>
                                 <h3 class="fifth-caption">Sweet Moments</h3>
                             </div>
                             <div class="back">
-                                <a href="<?php echo esc_url(home_url('service2')); ?>">
+                                <a href="<?php echo esc_url(home_url('sweet-moments')); ?>">
                                     <h4>Organisation d'évènements</h4>
                                 </a>
                                 <p class="description">Vous souhaitez créer ou
@@ -151,10 +151,9 @@ get_header(); ?>
                                 <h3 class="fifth-caption">Wedding Témoins</h3>
                             </div>
                             <div class="back">
-                                <a href="<?php echo esc_url(home_url('service3')); ?>">
+                                <a href="<?php echo esc_url(home_url('wedding-temoins')); ?>">
                                     <h4>Spécial Témoin</h4>
                                 </a>
-                                <!-- <p class="date">06/08/2004</p> -->
                                 <p class="description">Il est l'heure pour les témoins
                                     de rentrer en scène. Pour
                                     cela, La Jolie Agence vous
@@ -166,7 +165,6 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <!-- <a class="cta-see-more-tabac btn-card-home" href="<?php echo esc_url(home_url('service3')); ?>">Voir plus</a> -->
                 </div>
 
 
@@ -174,28 +172,6 @@ get_header(); ?>
             <div class="more-services"><a href="<?php echo esc_url(home_url('prestation')); ?>" class="cta-see-more-tabac">Découvrir les prestations</a></div>
         </div>
     </section>
-
-    <!-- <section id="sixth" data-scroll-section>
-        <div class="box-sixth">
-            <div class="img_box-sixth">
-                <style>
-                    .img_box-sixth {
-                        background: url(<?= get_template_directory_uri() . '/asset/img/list-resize.jpg' ?>) no-repeat center;
-                        background-size: cover;
-                    }
-                </style>
-            </div>
-            <div class="content_box-sixth">
-                <h2>cadeau gratuit</h2>
-                <p>Monsieur ou Madame a fait sa demande ?<br><span>FELICITATION !!!</span></p>
-                <p>Vous n'avez pas le temps pour tout organiser ou vous ne savez pas par où commencer ?</p>
-                <p>La Jolie Agence vous offre un rétroplanning gratuit pour vous accompagnez dans l'organisation de votre mariage</p>
-                <a href="" class="cta-see-more-tabac cta-bleu-color">En savoir plus</a>
-            </div>
-            <div class="brown_box-sixth"></div>
-        </div>
-
-    </section> -->
 
     <section id="third">
         <div class="third-box-1">
