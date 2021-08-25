@@ -1182,6 +1182,12 @@ strong {
 	text-align: center;
 	width: 100%;
 }
+.centerText {
+	text-align: justify;
+}
+.lineMentions {
+	line-height: normal;
+}
 
 .box-reseaux {
 	width: 100%;
@@ -1342,6 +1348,10 @@ strong {
 	background-repeat: no-repeat;
 	background-size: cover
 }
+
+.lien-site-dons:hover {
+	background-color: #BB8131;
+  }
 
 .speakAbout {
 	display: flex;
@@ -1813,6 +1823,7 @@ strong {
 .box-presta-text p {
 	width: 100%;
 	line-height: 1.5em;
+	text-align: justify;
 }
 
 .box-presta-text h3 {
