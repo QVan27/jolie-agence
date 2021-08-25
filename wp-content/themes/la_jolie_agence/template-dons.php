@@ -40,6 +40,7 @@ Celle-ci a fait le constat de la difficulté des élèves à apprendre et compre
                             min-height: 100%;
                             max-height: 100%;
                             
+                            
                         }
                     </style>
                 </div>
@@ -61,7 +62,8 @@ Celle-ci a fait le constat de la difficulté des élèves à apprendre et compre
                 </div>
             </div>
 
-            <div class="minibox-text reverse">
+
+            <div class="minibox-text reverse frameImg">
                 <div class="box-img-dons">
                     
                 </div>
@@ -70,13 +72,15 @@ Celle-ci a fait le constat de la difficulté des élèves à apprendre et compre
             <div class="minibox-text center">
                 <div class="speakDons">
                   <p id="centerDons">Notre objectif est d’aider l’association à se développer et offrir un soutien financier aux enfants burkinabés dans le besoin. L’objectif est de leur permettre de réaliser leur rêve d’études.Nous nous engageons à donner au moins 10 % de notre chiffre d’affaires annuel en continu pour le parrainage scolaire. N’oubliez pas, une nouvelle rencontre c’est un nouveau voyage qui commence ! Vous pouvez  <a>en savoir plus sur</a>  
-                  <a class="lien-site-dons" href="http://burkinabray.canalblog.com/"> http://burkinabray.canalblog.com/</a>
+                  <a class="nav-link" href="http://burkinabray.canalblog.com/" > http://burkinabray.canalblog.com/</a>
                 </p>
                 </div>
             </div>
+            <div class="minibox-text reverse frameImg">
             <div class="box-img-dons2">
                     
                 </div>
+            </div>
 
         </div>
     </div>
