@@ -69,6 +69,7 @@ get_header(); ?>
             <p>Racontez-nous votre histoire, nous nous ferions un plaisir de vous accompagner dans votre projet d’organisation.<br>La Jolie Agence vous accompagne dans l’organisation de votre mariage sur Bordeaux, Pays Basque, Dordogne, Les Landes, Charente, Charente- Maritime.
             </p>
         </div>
+        
 
         <div class="content-text-contact">
             <div class="w50_m5-0">
