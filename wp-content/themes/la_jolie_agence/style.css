@@ -1265,53 +1265,10 @@ strong {
 	background-color: #092636;
 }
 
-.minibox-img_3 {
-	background: url("asset/img/couple.jpg") no-repeat center;
-	background-size: cover;
-	min-height: 100%;
-	width: 50%;
-}
-.minibox-img_4 {
-	background: url("asset/img/couple.jpg") no-repeat center;
-	background-size: cover;
-	min-height: 100%;
-	width: 50%;
-}
-.minibox-img_5 {
-	background: url("asset/img/couple.jpg") no-repeat center;
-	background-size: cover;
-	min-height: 100%;
-	width: 50%;
-}
-.minibox-img_6 {
-	background: url("asset/img/couple.jpg") no-repeat center;
-	background-size: cover;
-	min-height: 100%;
-	width: 50%;
-}
-.minibox-img_7 {
-	background: url("asset/img/couple.jpg") no-repeat center;
-	background-size: cover;
-	min-height: 100%;
-	width: 50%;
-}
-.minibox-img_8 {
-	background: url("asset/img/couple.jpg") no-repeat center;
-	background-size: cover;
-	min-height: 100%;
-	width: 50%;
-}
-.minibox-img_9 {
-	background: url("asset/img/couple.jpg") no-repeat center;
-	background-size: cover;
-	min-height: 100%;
-	width: 50%;
-}
-.minibox-img_10 {
-	background: url("asset/img/couple.jpg") no-repeat center;
-	background-size: cover;
-	min-height: 100%;
-	width: 50%;
+.image_prestation {
+	background-size: contain !important;
+	min-height: 100% !important;
+	width: 50% !important;
 }
 
 .minibox-content p {

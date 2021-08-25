@@ -20,18 +20,18 @@ $(window).load(function () {
   });
 });
 
-window.cookieconsent.initialise({
-  cookie: {
-     domain : "/",
-     name: "cookie_consent",
-   },
-   palette:{
-     popup:  { background: "#f8f5f3"  },
-     button: { background: "#092636"},
-   },
-   content:{
-     message: "Nous utilisons des cookies pour vous offrir une meilleure expérience de navigation et analyser le trafic du site. Si vous continuez à utiliser ce site, vous consentez à notre utilisation des cookies",
-     dismiss: "Compris",
-     learnMore: "En savoir plus",
-   },
- });
+// window.cookieconsent.initialise({
+//   cookie: {
+//      domain : "/",
+//      name: "cookie_consent",
+//    },
+//    palette:{
+//      popup:  { background: "#f8f5f3"  },
+//      button: { background: "#092636"},
+//    },
+//    content:{
+//      message: "Nous utilisons des cookies pour vous offrir une meilleure expérience de navigation et analyser le trafic du site. Si vous continuez à utiliser ce site, vous consentez à notre utilisation des cookies",
+//      dismiss: "Compris",
+//      learnMore: "En savoir plus",
+//    },
+//  });
