@@ -9,7 +9,8 @@
 //     x: 500,
 //   });
 
-  gsap.fromTo(".content-about", {opacity: 0}, {opacity: 1, duration: 2, delay: 1.5});
+  gsap.fromTo("#save", {opacity: 0}, {opacity: 1, duration: 2, delay: 1});
+  gsap.fromTo(".married", {opacity: 0}, {opacity: 1, duration: 2, delay: 1.5});
 
 //   TweenMax.staggerFrom(
 //     ".container-card-flip",
