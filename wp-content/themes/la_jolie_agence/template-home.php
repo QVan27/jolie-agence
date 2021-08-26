@@ -27,7 +27,7 @@ get_header(); ?>
         </div>
     </section>
 
-    <section id="second">
+    <section id="second" class="fd-cr">
         <div class="second-box-1"></div>
         <div class="second-box-2">
             <div class="second-box-content">
@@ -62,7 +62,7 @@ get_header(); ?>
                 <a class="cta-see-more-tabac" href="<?php echo esc_url(home_url('a-propos')); ?>">En savoir plus</a>
             </div>
         </div>
-        <div class="third-box-2"></div>
+        <div class="third-box-2 bp-b"></div>
     </section>
 
     <section id="fourth" style="background-image: url(<?= get_template_directory_uri() . '/asset/img/table.jpg' ?>);">
@@ -173,7 +173,7 @@ get_header(); ?>
         </div>
     </section>
 
-    <section id="third">
+    <section id="third" class="fd-cr ">
         <div class="third-box-1">
             <div class="top-bar-tabac"></div>
             <div class="bottom-bar-tabac"></div>
