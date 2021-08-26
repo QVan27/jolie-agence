@@ -41,4 +41,19 @@
 					</ul>
 				</div>
 			</nav>
+
+			<div class="menu">
+				<nav>
+					<ul class="">
+						<li><a href="<?php echo esc_url(home_url('/')); ?>">Accueil</a></li>
+						<li><a href="<?php echo esc_url(home_url('a-propos')); ?>">À propos</a></li>
+						<li><a href="<?php echo esc_url(home_url('prestation')); ?>">Prestations</a></li>
+						<li><a href="<?php echo esc_url(home_url('portfolio')); ?>">Portfolio</a></li>
+						<li><a href="<?php echo esc_url(home_url('contact')); ?>">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="burger">
+				<span></span>
+			</div>
 		</header>
