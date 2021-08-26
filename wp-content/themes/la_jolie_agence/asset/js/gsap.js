@@ -7,8 +7,8 @@
 
 // gsap.registerPlugin(ScrollTrigger);
 
-// gsap.fromTo("#save", {opacity: 0}, {opacity: 1, duration: 2, delay: 1});
-// gsap.fromTo(".married", {opacity: 0}, {opacity: 1, duration: 2, delay: 1.5});
+gsap.fromTo("#save", {opacity: 0}, {opacity: 1, duration: 2, delay: 1});
+gsap.fromTo(".married", {opacity: 0}, {opacity: 1, duration: 2, delay: 1.5});
 
   // let t1 = gsap.timeline({
   //     scrollTrigger : {
@@ -26,8 +26,8 @@
   gsap.utils.toArray(".box-presta-text").forEach(function (elem) {
     ScrollTrigger.create({
       trigger: elem,
-      start: "top 80%",
-      end: "bottom 20%",
+      start: "top 50%",
+      end: "bottom 50%",
       // markers: true,
       onEnter: function () {
         gsap.fromTo(
