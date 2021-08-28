@@ -80,7 +80,7 @@ function la_jolie_agence_scripts()
 	// FontAwesome
 	wp_register_style( 'Font_Awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css' );
 	wp_enqueue_style('Font_Awesome');
-	// Locomotive Scroll .css
+	// cookie .css
 	wp_register_style( 'cookie.css', 'https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css' );
 	wp_enqueue_style('cookie.css');
 	

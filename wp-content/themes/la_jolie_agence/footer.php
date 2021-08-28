@@ -18,7 +18,7 @@
 <footer class="footer">
     <div class="wrapper">
         <div class="box1">
-            <div class="minibox">
+            <div class="minibox w20">
                 <div class="box-content-footer">
                     <a href="https://www.bschoolevents.fr/" target="_blank">
                         <img src="<?php echo get_template_directory_uri() . '/asset/img/bschool.png' ?>" alt="B School Events">

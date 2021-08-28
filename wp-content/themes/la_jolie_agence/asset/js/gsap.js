@@ -23,46 +23,46 @@ gsap.fromTo(".married", {opacity: 0}, {opacity: 1, duration: 2, delay: 1.5});
   //   x: 500
   // });
 
-  gsap.utils.toArray(".box-presta-text").forEach(function (elem) {
-    ScrollTrigger.create({
-      trigger: elem,
-      start: "top 50%",
-      end: "bottom 50%",
-      // markers: true,
-      onEnter: function () {
-        gsap.fromTo(
-          elem,
-          { y: 100, autoAlpha: 0 },
-          {
-            duration: 1.25,
-            y: 0,
-            autoAlpha: 1,
-            ease: "back",
-            overwrite: "auto"
-          }
-        );
-      },
-      onLeave: function () {
-        gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 0, overwrite: "auto" });
-      },
-      onEnterBack: function () {
-        gsap.fromTo(
-          elem,
-          { y: -100, autoAlpha: 0 },
-          {
-            duration: 1.25,
-            y: 0,
-            autoAlpha: 1,
-            ease: "back",
-            overwrite: "auto"
-          }
-        );
-      },
-      onLeaveBack: function () {
-        gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 0, overwrite: "auto" });
-      }
-    });
-  });
+  // gsap.utils.toArray(".box-presta-text").forEach(function (elem) {
+  //   ScrollTrigger.create({
+  //     trigger: elem,
+  //     start: "top 50%",
+  //     end: "bottom 50%",
+  //     // markers: true,
+  //     onEnter: function () {
+  //       gsap.fromTo(
+  //         elem,
+  //         { y: 100, autoAlpha: 0 },
+  //         {
+  //           duration: 1.25,
+  //           y: 0,
+  //           autoAlpha: 1,
+  //           ease: "back",
+  //           overwrite: "auto"
+  //         }
+  //       );
+  //     },
+  //     onLeave: function () {
+  //       gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 0, overwrite: "auto" });
+  //     },
+  //     onEnterBack: function () {
+  //       gsap.fromTo(
+  //         elem,
+  //         { y: -100, autoAlpha: 0 },
+  //         {
+  //           duration: 1.25,
+  //           y: 0,
+  //           autoAlpha: 1,
+  //           ease: "back",
+  //           overwrite: "auto"
+  //         }
+  //       );
+  //     },
+  //     onLeaveBack: function () {
+  //       gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 0, overwrite: "auto" });
+  //     }
+  //   });
+  // });
   
 
   // TweenMax.staggerFrom(
