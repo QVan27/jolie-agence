@@ -1855,6 +1855,10 @@ strong {
 	.nav-link {
 		font-size: 0.95em;
 	}
+	/* CONTACT */
+	.w50_m5-0 {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 800px) {
