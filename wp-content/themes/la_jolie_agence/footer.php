@@ -55,7 +55,7 @@
                 <li><a href="<?php echo esc_url(home_url('dons-associatifs')); ?>" class="link-footer">Dons Associatifs</a></li>
                 <li><a href="<?php echo esc_url(home_url('contact')); ?>" class="link-footer">Contact</a></li>
                 <li><a href="<?php echo esc_url(home_url('mentions-legales')); ?>" class="link-footer">Mentions légales</a></li>
-                <li><a href="" class="link-footer">Politique de confidentialité</a></li>
+                <!-- <li><a href="" class="link-footer">Politique de confidentialité</a></li> -->
             </ul>
         </div>
     </div>

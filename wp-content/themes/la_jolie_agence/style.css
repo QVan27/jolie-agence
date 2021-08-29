@@ -1797,17 +1797,20 @@ strong {
 .taR {
 	text-align: right;
 }
+
 /* service 1 */
 
 /* mentions */
+
 .title-mentions {
 	font-size: 1.1em !important;
-    margin-bottom: 10px !important;
-    font-weight: 700 !important;
+	margin-bottom: 10px !important;
+	font-weight: 700 !important;
 	text-align: left !important;
 }
 
 /* mentions end */
+
 /* START RESPONSIVE */
 
 /* HOME */
@@ -1852,9 +1855,9 @@ strong {
 }
 
 @media screen and (max-width: 900px) {
-	body {
+	/* body {
 		font-size: 0.7em;
-	}
+	} */
 	.nav-link {
 		font-size: 0.95em;
 	}
@@ -1865,9 +1868,9 @@ strong {
 }
 
 @media screen and (max-width: 800px) {
-	body {
+	/* body {
 		font-size: 0.7em;
-	}
+	} */
 	.nav-link {
 		font-size: 0.80em;
 	}
@@ -1989,6 +1992,7 @@ strong {
 		min-height: 300px;
 		height: auto;
 		background-position: 0 60vh;
+		padding-top: 20px;
 	}
 	.wrapper {
 		min-height: 200px;
@@ -1996,6 +2000,9 @@ strong {
 	}
 	.box2 {
 		margin-top: 40px;
+	}
+	.box2 p, .box2 ul {
+		width: 100%;
 	}
 	.burger {
 		display: block;
@@ -2068,10 +2075,21 @@ strong {
 		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 16px;
 	}
-	
+	.box-content-footer img {
+		width: 50%;
+	}
+	.w50_m5-0 {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 576px) {
+	.content-about {
+		padding: 0 3%;
+	}
+	#centerDons {
+		margin-top: 20px;
+	}
 	/* SERVICE */
 	.minibox-text {
 		display: flex;
@@ -2130,7 +2148,7 @@ strong {
 	.box2 ul {
 		width: 100%;
 	}
-	.about {
+	.about, .don {
 		min-height: 400px;
 	}
 	.minibox-text {
@@ -2138,17 +2156,17 @@ strong {
 	}
 	.footer {
 		min-height: 55vh;
-		background-position: 0 37vh;
+		background-position: 20% 100%;
 		/* margin: 40px 0 10px 0; */
 	}
 	.box-content-footer img {
 		width: 80%;
 	}
-	/* CONTACT */
-	.w50_m5-0 {
-		width: 100%;
-		text-align: center;
+	.box1 {
+		align-items: center;
+		flex-direction: column;
 	}
+	/* CONTACT */
 	.halfSize, .fullSize {
 		align-items: flex-start;
 	}
@@ -2184,12 +2202,17 @@ strong {
 	.speakAbout a {
 		width: 100%;
 	}
+	.box1 .minibox {
+		width: 50%;
+	}
+	#form-contact label {
+		font-size: .8em;
+	}
 }
 
 @media screen and (max-width: 479px) {
 	.footer {
 		min-height: 55vh;
-		background-position: 0 20vh;
 		padding-top: 20px;
 		/* margin: 40px 0 10px 0; */
 	}
@@ -2211,7 +2234,7 @@ strong {
 		width: 100%;
 	}
 	.box1 .minibox {
-		width: 60%;
+		width: 80%;
 	}
 	/* CONTACT */
 	/* .w50_m5-0 {
