@@ -2084,6 +2084,9 @@ strong {
 }
 
 @media screen and (max-width: 576px) {
+	.content-about {
+		padding: 0 3%;
+	}
 	#centerDons {
 		margin-top: 20px;
 	}
