@@ -2202,6 +2202,9 @@ strong {
 	.box1 .minibox {
 		width: 50%;
 	}
+	#form-contact label {
+		font-size: .8em;
+	}
 }
 
 @media screen and (max-width: 479px) {
