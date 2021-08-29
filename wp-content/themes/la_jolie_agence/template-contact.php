@@ -52,7 +52,7 @@ get_header(); ?>
             <div id="save"><h1>La Jolie Agence</h1></div>
         </div>
         <div class="married">
-            <h2>À propos</h2>
+            <h2>Contact</h2>
         </div>
     </div>
 </section>
