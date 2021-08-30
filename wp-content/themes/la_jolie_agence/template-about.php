@@ -40,14 +40,13 @@ $image_parallax = get_field('image_parallax');
                             background-size: contain;
                             min-height: 100%;
                             max-height: 100%;
-
                         }
                     </style>
                 </div>
             </div>
 
             <div class="minibox-text reverse marginBottom">
-                <p><span class="italic"><?= $metas['texte_2'][0]; ?></span>
+                <p><?= $metas['texte_2'][0]; ?>
                 </p>
                 <div class="minibox-img minibox-img_2">
                     <style>
@@ -75,8 +74,8 @@ $image_parallax = get_field('image_parallax');
 
             <div class="minibox-text marginBottom reverse center">
                 <div class="speakAbout">
-                    <h2 class="marginBottom">Ils parlents de nous :</h2>
-                    <a href="https://lamarieeenjouee.com/"><img src="<?php echo get_template_directory_uri() . '/asset/img/lamarieenjouee.png' ?>" alt=""></a>
+                    <h2 class="marginBottom">Ils parlent de nous :</h2>
+                    <a href="https://lamarieeenjouee.com/2021/08/21/les-noces-dambre/" target="_blank"><img src="<?php echo get_template_directory_uri() . '/asset/img/lamarieenjouee.png' ?>" alt=""></a>
                 </div>
             </div>
 

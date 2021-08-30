@@ -61,6 +61,9 @@ $image_sweet_3 = get_field('image_3');
 			</style>
 		</div>
 	</div>
+	<div class="box-pdf">
+		<a class="pdf-btn cta-see-more-tabac" href="<?= get_template_directory_uri() . '/asset/pdf/sweet-moment.pdf' ?>" download>télécharger le pdf</a>
+	</div>
 </div>
 <?php
 get_footer();

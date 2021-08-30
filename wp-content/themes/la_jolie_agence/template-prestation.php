@@ -38,9 +38,7 @@ get_header(); ?>
                             <a href="<?= esc_url(home_url('wedding-day')); ?>">
                                 <h4>Organisation de Mariage</h4>
                             </a>
-                            <!-- <p class="date">23/07/1997</p> -->
-                            <p class="description">Venez découvrir les différentes formules qui vous correspondent pour votre mariage: <br>"Organisation Complète ou partielle" <br>"Coordination Jour J " <br>"Elopement " <br><span class="description_span">Barbara Luzynska</span>
-                            </p>
+                            <p class="description">Organisation complète<br>Coordination Jour J<br>Elopement</p>
                         </div>
                     </div>
                 </div>
@@ -65,13 +63,9 @@ get_header(); ?>
                             <a href="<?= esc_url(home_url('sweet-moments')); ?>">
                                 <h4>Organisation d'évènements</h4>
                             </a>
-                            <!-- <p class="date">14/07/2001</p> -->
-                            <p class="description">Vous souhaitez créer ou
-                                recréer le moment magique à
-                                travers :
-                                <br>"une demande en Mariage"
-                                <br>"Un Renouvellement de vœux"
-                                <br>"Baby Shower"
+                            <p class="description">Demande en Mariage
+                                <br>Renouvellement de vœux
+                                <br>Baby Shower
                             </p>
                         </div>
                     </div>
@@ -97,14 +91,9 @@ get_header(); ?>
                             <a href="<?= esc_url(home_url('wedding-temoins')); ?>">
                                 <h4>Spécial Témoin</h4>
                             </a>
-                            <!-- <p class="date">06/08/2004</p> -->
-                            <p class="description">Il est l'heure pour les témoins
-                                de rentrer en scène. Pour
-                                cela, La Jolie Agence vous
-                                propose différents services :
-                                <br>"Enterrement de vie de jeune
-                                fille et de garçon"
-                                <br>"SOS TEMOIN "
+                            <p class="description">Enterrement de vie de jeune fille
+                                <br>Enterrement de vie de garçon
+                                <br>SOS témoin
                             </p>
                         </div>
                     </div>
@@ -114,5 +103,5 @@ get_header(); ?>
         </div>
     </div>
 </div>
-    <?php
-    get_footer();
+<?php
+get_footer();

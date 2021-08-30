@@ -6,7 +6,7 @@ get_header();
 $metas = get_post_meta($id);
 $image_temoins_1 = get_field('image_1');
 $image_temoins_2 = get_field('image_2');
- ?>
+?>
 <section class="presta">
 	<div class="content-about">
 		<div id="text-about">
@@ -41,7 +41,7 @@ $image_temoins_2 = get_field('image_2');
 		</div>
 
 		<div class="image_prestation img_9">
-		<style>
+			<style>
 				.img_9 {
 					background: url("<?= $image_temoins_1['url']; ?>") no-repeat center;
 				}
@@ -61,20 +61,19 @@ $image_temoins_2 = get_field('image_2');
 				Vous êtes les futurs mariés, vous souhaitez que vos témoins soient accompagnés pour l’organisation de votre mariage.
 				SOS La Jolie Agence est disponible pour vous guidez
 				A partir de 150 €
-
 			</p>
 		</div>
 		<div class="image_prestation img_10">
-		<style>
+			<style>
 				.img_10 {
 					background: url("<?= $image_temoins_2['url']; ?>") no-repeat center;
 				}
 			</style>
 		</div>
 	</div>
-
-	
-
+	<div class="box-pdf">
+		<a class="pdf-btn cta-see-more-tabac" href="<?= get_template_directory_uri() . '/asset/pdf/wedding-prestations.pdf' ?>" download>télécharger le pdf</a>
+	</div>
 </div>
 
 <?php

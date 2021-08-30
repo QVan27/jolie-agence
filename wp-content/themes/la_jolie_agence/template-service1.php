@@ -60,14 +60,16 @@ $image_day_3 = get_field('image_3');
 		</div>
 
 		<div class="image_prestation img_5">
-		<style>
+			<style>
 				.img_5 {
 					background: url("<?= $image_day_3['url']; ?>") no-repeat center;
 				}
 			</style>
 		</div>
 	</div>
-
+	<div class="box-pdf">
+		<a class="pdf-btn cta-see-more-tabac" href="<?= get_template_directory_uri() . '/asset/pdf/wedding-prestations.pdf' ?>" download>télécharger le pdf</a>
+	</div>
 </div>
 
 <?php

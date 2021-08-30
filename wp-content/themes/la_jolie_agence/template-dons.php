@@ -41,8 +41,6 @@ $image_parallax_2 = get_field('image_parallax_2');
                         .minibox-img {
                             background: url(<?= $image_1['url']; ?>) no-repeat center;
                             background-size: contain;
-                            /* min-height: 100%;
-                            max-height: 100%;      */
                         }
                     </style>
                 </div>
