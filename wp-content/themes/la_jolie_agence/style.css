@@ -439,24 +439,22 @@ strong {
 	min-width: 100vw;
 	min-height: 100vh;
 	display: flex;
+	/* padding-top: 100px; */
+	border-top: 1px solid var(--tabac-color);
 }
 
 .second-box-1 {
 	width: 60%;
 	background-image: url(asset/img/couple.jpg);
-	/* background-size: cover;
-	background-repeat: no-repeat; */
 	/* https://www.w3schools.com/howto/howto_css_parallax.asp
 	The image used
 	*/
-	/* background-image: url("img_parallax.jpg"); */
 	/* Set a specific height */
 	min-height: 300px;
 	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
 }
 
 .second-box-2 {
@@ -481,7 +479,7 @@ strong {
 
 .second-box-content h1 {
 	font-family: 'source_serif_problack';
-	font-size: 3em;
+	font-size: 4em;
 	font-weight: bold;
 	padding: 2vh 0;
 }
@@ -517,6 +515,7 @@ strong {
 	min-width: 100vw;
 	min-height: 100vh;
 	display: flex;
+	border: 1px solid var(--tabac-color);
 }
 
 .third-box-1 {
@@ -531,7 +530,7 @@ strong {
 
 .third-box-2 {
 	background-image: url(asset/img/adeline.jpg);
-	background-size: cover;
+	background-size: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 40%;
@@ -556,7 +555,7 @@ strong {
 
 .third-box-content h2 {
 	font-family: 'source_serif_problack';
-	font-size: 4em;
+	font-size: 3em;
 	font-weight: bold;
 	margin-bottom: 3vh;
 }
@@ -673,11 +672,12 @@ strong {
 	height: auto;
 	background-size: cover;
 	position: relative;
-	background-color: var(--beige-color);
+	background-color: #fff;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	padding: 10vh 5%;
+	border-top: 1px solid var(--tabac-color);
 }
 
 .fifth-bigbox-prestation {
@@ -706,7 +706,7 @@ strong {
 	text-align: center;
 	color: var(--tabac-color);
 	font-family: 'source_serif_problack';
-	font-size: 4em;
+	font-size: 3em;
 	font-weight: bold;
 	margin-bottom: 5vh;
 }
@@ -1586,7 +1586,8 @@ strong {
 	left: 0;
 	width: 300px;
 	height: 300px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	/* box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px; */
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
 .front {
@@ -1805,7 +1806,7 @@ strong {
 .box-presta-text {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 .box-presta-text p {
@@ -2004,6 +2005,9 @@ strong {
 }
 
 @media screen and (max-width: 768px) {
+	.flexslider .slides img {
+		height: auto !important;
+	}
 	.presta {
 		background-position: 40% 25%;
 	}
@@ -2275,6 +2279,12 @@ strong {
 }
 
 @media screen and (max-width: 479px) {
+	.third-box-content h2 {
+		font-size: 2em;
+	}
+	#fifth h2 {
+		font-size: 2em;
+	}
 	.footer {
 		min-height: 55vh;
 		padding-top: 20px;

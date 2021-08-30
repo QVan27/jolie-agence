@@ -7,10 +7,6 @@ burger.addEventListener("click", () => {
   burger.classList.toggle("active");
 });
 
-
-
-
-
 $(window).load(function () {
   // Flexslider
   $(".flexslider").flexslider({

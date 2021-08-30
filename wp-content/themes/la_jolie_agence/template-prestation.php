@@ -81,7 +81,7 @@ get_header(); ?>
                                 <style>
                                     .img-card-three {
                                         background: url(<?= get_template_directory_uri() . '/asset/img/wedding-temoins.jpg' ?>) no-repeat center;
-                                        background-size: cover;
+                                        background-size: auto 100%;
                                     }
                                 </style>
                             </div>

@@ -56,7 +56,7 @@ $image_sweet_3 = get_field('image_3');
 		<div class="image_prestation img_8">
 		<style>
 				.img_8 {
-					background: url("<?= $image_sweet_1['url']; ?>") no-repeat center;
+					background: url("<?= $image_sweet_3['url']; ?>") no-repeat center;
 				}
 			</style>
 		</div>

@@ -45,7 +45,9 @@ if (!empty($_POST['submitted'])) {
         $success = true;
     }
 }
-get_header(); ?>
+get_header();
+$metas = get_post_meta($id);
+?>
 <section class="banner-parallax">
 <div class="content-about">
         <div id="text-about">
@@ -66,8 +68,7 @@ get_header(); ?>
         </div>
 
         <div class="box-text">
-            <p>Racontez-nous votre histoire, nous nous ferions un plaisir de vous accompagner dans votre projet d’organisation.<br>La Jolie Agence vous accompagne dans l’organisation de votre mariage sur Bordeaux, Pays Basque, Dordogne, Les Landes, Charente, Charente- Maritime.
-            </p>
+            <p><?= $metas['texte_1'][0]; ?></p>
         </div>
         
 
@@ -138,7 +139,7 @@ get_header(); ?>
         </div>
 
         <div class="box-text">
-            <p>N’hésitez pas à nous contacter directement par mail ou par téléphone.<br>Nous pouvons nous rencontrer à votre domicile, autour d’un verre, thé, café…<br>Horaires : Lundi au Vendredi de 9h à 19 h</p>
+            <p><?= $metas['texte_2'][0]; ?></p>
         </div>
 
     </div>
